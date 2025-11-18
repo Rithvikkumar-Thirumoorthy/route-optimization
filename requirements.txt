@@ -1,0 +1,13 @@
+# Database Connectivity
+pyodbc==4.0.39
+sqlalchemy==2.0.19
+
+# Data Processing
+pandas==2.0.3
+numpy==1.24.3
+
+# Configuration
+python-dotenv==1.0.0
+
+# Optional: Progress bars (if needed in future)
+# tqdm==4.65.0
