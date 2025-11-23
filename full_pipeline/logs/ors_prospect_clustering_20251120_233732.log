@@ -1,0 +1,1879 @@
+2025-11-20 23:37:32,179 - INFO - ================================================================================
+2025-11-20 23:37:32,179 - INFO - TEST MODE - ORS PROSPECT CLUSTERING (DRY RUN)
+2025-11-20 23:37:32,179 - INFO - NO DATABASE CHANGES WILL BE MADE
+2025-11-20 23:37:32,180 - INFO - ================================================================================
+2025-11-20 23:37:32,180 - INFO - Distributor ID: 11619
+2025-11-20 23:37:32,180 - INFO - Start Date: 2025-12-01 (will adjust to first Monday of month)
+2025-11-20 23:37:32,181 - INFO - Working Days: Monday-Saturday (6 days/week, Sunday is holiday)
+2025-11-20 23:37:32,198 - INFO - Max Stores per Cluster: 60
+2025-11-20 23:37:32,198 - INFO - Min Stores Threshold: 35
+2025-11-20 23:37:32,198 - INFO - ================================================================================
+2025-11-20 23:37:34,202 - INFO - 
+================================================================================
+2025-11-20 23:37:34,202 - INFO - STEP 1: Getting sales agents with access = 15 for distributor 11619
+2025-11-20 23:37:34,203 - INFO - ================================================================================
+2025-11-20 23:37:34,203 - INFO - Getting sales agents with access = 15 for distributor 11619
+2025-11-20 23:37:35,318 - INFO - Found 5 sales agents with access = 15
+2025-11-20 23:37:35,320 - INFO - 
+================================================================================
+2025-11-20 23:37:35,321 - INFO - STEP 2: Getting distributor barangays
+2025-11-20 23:37:35,322 - INFO - ================================================================================
+2025-11-20 23:37:35,512 - INFO - Distributor 11619: MINDANAO MVP
+2025-11-20 23:37:35,815 - INFO - Found 628 barangays for distributor 11619 (MINDANAO MVP)
+2025-11-20 23:37:35,816 - INFO - 
+================================================================================
+2025-11-20 23:37:35,817 - INFO - STEP 2.5: Calculating monthly route capacity
+2025-11-20 23:37:35,818 - INFO - ================================================================================
+2025-11-20 23:37:35,819 - INFO - Number of agents: 5
+2025-11-20 23:37:35,820 - INFO - Working days per week: 6 (Mon-Sat)
+2025-11-20 23:37:35,820 - INFO - Weeks per month: 4
+2025-11-20 23:37:35,821 - INFO - MONTHLY ROUTE CAPACITY: 120 routes
+2025-11-20 23:37:35,822 - INFO - Max stores per route: 60
+2025-11-20 23:37:35,824 - INFO - Theoretical max stores per month: 7200
+2025-11-20 23:37:35,825 - INFO - ================================================================================
+2025-11-20 23:37:35,827 - INFO - 
+================================================================================
+2025-11-20 23:37:35,829 - INFO - STEP 2.6: Counting stores per barangay and sorting
+2025-11-20 23:37:35,829 - INFO - ================================================================================
+2025-11-20 23:37:35,832 - INFO -   Fetching excluded IDs from MonthlyRoutePlan_temp...
+2025-11-20 23:37:36,242 - INFO -   Excluded 12176 IDs from MonthlyRoutePlan_temp
+2025-11-20 23:37:36,242 - INFO -   Fetching excluded IDs from custvisit...
+2025-11-20 23:37:37,736 - INFO -   Excluded 95144 IDs from custvisit
+2025-11-20 23:37:37,737 - INFO -   Total excluded IDs: 100867
+2025-11-20 23:37:37,740 - INFO - 
+Counting stores per barangay...
+2025-11-20 23:37:39,873 - INFO -     Barangay 112406001: 5 prospects
+2025-11-20 23:37:39,955 - INFO -   Abnate (112406001): 5 stores available (total: 5)
+2025-11-20 23:37:40,768 - INFO -     Barangay 112402001: 4 prospects
+2025-11-20 23:37:40,863 - INFO -   Acacia (112402001): 4 stores available (total: 4)
+2025-11-20 23:37:41,443 - INFO -     Barangay 112317001: 25 prospects
+2025-11-20 23:37:41,525 - INFO -   Adecor (112317001): 25 stores available (total: 25)
+2025-11-20 23:37:44,203 - INFO -     Barangay 112402002: 51 prospects
+2025-11-20 23:37:44,286 - INFO -   Agdao (112402002): 51 stores available (total: 51)
+2025-11-20 23:37:44,798 - INFO -     Barangay 118202001: 16 prospects
+2025-11-20 23:37:44,873 - INFO -   Aguinaldo (118202001): 16 stores available (total: 16)
+2025-11-20 23:37:45,406 - INFO -     Barangay 112401001: 1 prospects
+2025-11-20 23:37:45,501 - INFO -   Alegre (112401001): 1 stores available (total: 1)
+2025-11-20 23:37:45,994 - INFO -     Barangay 112303001: 65 prospects
+2025-11-20 23:37:46,078 - INFO -   Alejal (112303001): 65 stores available (total: 65)
+2025-11-20 23:37:46,573 - INFO -     Barangay 112402056: 33 prospects
+2025-11-20 23:37:46,649 - INFO -   Alejandra Navarro (Lasang) (112402056): 33 stores available (total: 33)
+2025-11-20 23:37:47,141 - INFO -     Barangay 112402197: 2 prospects
+2025-11-20 23:37:47,215 - INFO -   Alfonso Angliongto Sr. (112402197): 2 stores available (total: 2)
+2025-11-20 23:37:49,364 - INFO -     Barangay 112505003: 4 prospects
+2025-11-20 23:37:49,447 - INFO -   Aliwagwag (112505003): 4 stores available (total: 4)
+2025-11-20 23:37:49,954 - INFO -     Barangay 112504001: 2 prospects
+2025-11-20 23:37:50,017 - INFO -   Alvar (112504001): 2 stores available (total: 2)
+2025-11-20 23:37:50,499 - INFO -     Barangay 118202016: 5 prospects
+2025-11-20 23:37:50,574 - INFO -   Amor Cruz (118202016): 5 stores available (total: 5)
+2025-11-20 23:37:51,059 - INFO -     Barangay 118202017: 19 prospects
+2025-11-20 23:37:51,141 - INFO -   Ampawid (118202017): 19 stores available (total: 19)
+2025-11-20 23:37:51,620 - INFO -     Barangay 118202018: 2 prospects
+2025-11-20 23:37:51,732 - INFO -   Andap (118202018): 2 stores available (total: 2)
+2025-11-20 23:37:52,239 - INFO -     Barangay 112402174: 5 prospects
+2025-11-20 23:37:52,327 - INFO -   Angalan (112402174): 5 stores available (total: 5)
+2025-11-20 23:37:54,282 - INFO -     Barangay 112303002: 20 prospects
+2025-11-20 23:37:54,356 - INFO -   Anibongan (112303002): 20 stores available (total: 20)
+2025-11-20 23:37:54,854 - INFO -     Barangay 118204001: 9 prospects
+2025-11-20 23:37:54,957 - INFO -   Anibongan (118204001): 9 stores available (total: 9)
+2025-11-20 23:37:55,480 - INFO -     Barangay 112506001: 32 prospects
+2025-11-20 23:37:55,567 - INFO -   Anitap (112506001): 32 stores available (total: 32)
+2025-11-20 23:37:56,052 - INFO -     Barangay 112317002: 24 prospects
+2025-11-20 23:37:56,163 - INFO -   Anonang (112317002): 24 stores available (total: 24)
+2025-11-20 23:37:56,641 - INFO -     Barangay 112401003: 1 prospects
+2025-11-20 23:37:56,844 - INFO -   Anonang (112401003): 1 stores available (total: 1)
+2025-11-20 23:37:57,553 - INFO -     Barangay 118209002: 5 prospects
+2025-11-20 23:37:57,724 - INFO -   Antiquera (118209002): 5 stores available (total: 5)
+2025-11-20 23:37:59,374 - INFO -     Barangay 112403001: 96 prospects
+2025-11-20 23:37:59,702 - INFO -   Aplaya (112403001): 96 stores available (total: 96)
+2025-11-20 23:38:00,247 - INFO -     Barangay 112319001: 101 prospects
+2025-11-20 23:38:00,395 - INFO -   Apokon (112319001): 101 stores available (total: 101)
+2025-11-20 23:38:00,893 - INFO -     Barangay 112410001: 5 prospects
+2025-11-20 23:38:01,064 - INFO -   Asbang (112410001): 5 stores available (total: 5)
+2025-11-20 23:38:01,557 - INFO -     Barangay 112412001: 1 prospects
+2025-11-20 23:38:01,727 - INFO -   Astorga (112412001): 1 stores available (total: 1)
+2025-11-20 23:38:02,229 - INFO -     Barangay 112303003: 70 prospects
+2025-11-20 23:38:02,363 - INFO -   Asuncion (Cuatro-Cuatro) (112303003): 70 stores available (total: 70)
+2025-11-20 23:38:04,267 - INFO -     Barangay 112317004: 1 prospects
+2025-11-20 23:38:04,644 - INFO -   Aundanao (112317004): 1 stores available (total: 1)
+2025-11-20 23:38:05,145 - INFO -     Barangay 118201016: 1 prospects
+2025-11-20 23:38:05,357 - INFO -   Aurora (118201016): 1 stores available (total: 1)
+2025-11-20 23:38:05,878 - INFO -     Barangay 112407001: 14 prospects
+2025-11-20 23:38:06,013 - INFO -   Bacungan (112407001): 14 stores available (total: 14)
+2025-11-20 23:38:06,599 - INFO -     Barangay 112509001: 5 prospects
+2025-11-20 23:38:06,711 - INFO -   Badas (112509001): 5 stores available (total: 5)
+2025-11-20 23:38:07,508 - INFO -     Barangay 112402175: 26 prospects
+2025-11-20 23:38:07,661 - INFO -   Baganihan (112402175): 26 stores available (total: 26)
+2025-11-20 23:38:08,742 - INFO -     Barangay 112402176: 75 prospects
+2025-11-20 23:38:08,913 - INFO -   Bago Aplaya (112402176): 75 stores available (total: 75)
+2025-11-20 23:38:09,420 - INFO -     Barangay 112402005: 258 prospects
+2025-11-20 23:38:09,651 - INFO -   Bago Gallera (112402005): 258 stores available (total: 258)
+2025-11-20 23:38:10,171 - INFO -     Barangay 112402006: 6 prospects
+2025-11-20 23:38:10,373 - INFO -   Bago Oshiro (112402006): 6 stores available (total: 6)
+2025-11-20 23:38:10,904 - INFO -     Barangay 112406003: 1 prospects
+2025-11-20 23:38:11,105 - INFO -   Bagong Silang (112406003): 1 stores available (total: 1)
+2025-11-20 23:38:11,899 - INFO -     Barangay 118202020: 1 prospects
+2025-11-20 23:38:11,989 - INFO -   Bagong Silang (118202020): 1 stores available (total: 1)
+2025-11-20 23:38:13,685 - INFO -     Barangay 118201001: 9 prospects
+2025-11-20 23:38:13,828 - INFO -   Bagongon (118201001): 9 stores available (total: 9)
+2025-11-20 23:38:14,326 - INFO -     Barangay 112402007: 51 prospects
+2025-11-20 23:38:14,378 - INFO -   Baguio (Pob.) (112402007): 51 stores available (total: 51)
+2025-11-20 23:38:14,865 - INFO -     Barangay 112507001: 29 prospects
+2025-11-20 23:38:14,953 - INFO -   Bagumbayan (112507001): 29 stores available (total: 29)
+2025-11-20 23:38:15,481 - INFO -     Barangay 112410003: 8 prospects
+2025-11-20 23:38:15,557 - INFO -   Bagumbayan (112410003): 8 stores available (total: 8)
+2025-11-20 23:38:16,293 - INFO -     Barangay 112408019: 31 prospects
+2025-11-20 23:38:16,382 - INFO -   Bagumbayan (112408019): 31 stores available (total: 31)
+2025-11-20 23:38:17,860 - INFO -     Barangay 112403002: 19 prospects
+2025-11-20 23:38:17,933 - INFO -   Balabag (112403002): 19 stores available (total: 19)
+2025-11-20 23:38:18,500 - INFO -     Barangay 112318001: 21 prospects
+2025-11-20 23:38:18,572 - INFO -   Balagunan (112318001): 21 stores available (total: 21)
+2025-11-20 23:38:19,128 - INFO -     Barangay 112402009: 3 prospects
+2025-11-20 23:38:19,216 - INFO -   Balengaeng (112402009): 3 stores available (total: 3)
+2025-11-20 23:38:19,706 - INFO -     Barangay 112317005: 52 prospects
+2025-11-20 23:38:19,791 - INFO -   Balet (112317005): 52 stores available (total: 52)
+2025-11-20 23:38:20,298 - INFO -     Barangay 118208001: 10 prospects
+2025-11-20 23:38:20,386 - INFO -   Banagbanag (118208001): 10 stores available (total: 10)
+2025-11-20 23:38:22,678 - INFO -     Barangay 112501002: 53 prospects
+2025-11-20 23:38:22,789 - INFO -   Banao (112501002): 53 stores available (total: 53)
+2025-11-20 23:38:25,135 - INFO -     Barangay 118202002: 7 prospects
+2025-11-20 23:38:25,222 - INFO -   Banbanon (118202002): 7 stores available (total: 7)
+2025-11-20 23:38:28,579 - INFO -     Barangay 112317006: 15 prospects
+2025-11-20 23:38:28,667 - INFO -   Bandera (112317006): 15 stores available (total: 15)
+2025-11-20 23:38:29,908 - INFO -     Barangay 118208002: 1 prospects
+2025-11-20 23:38:29,994 - INFO -   Banglasan (118208002): 1 stores available (total: 1)
+2025-11-20 23:38:30,525 - INFO -     Barangay 118208003: 29 prospects
+2025-11-20 23:38:30,617 - INFO -   Bankerohan Norte (118208003): 29 stores available (total: 29)
+2025-11-20 23:38:31,110 - INFO -     Barangay 118208004: 40 prospects
+2025-11-20 23:38:31,204 - INFO -   Bankerohan Sur (118208004): 40 stores available (total: 40)
+2025-11-20 23:38:31,691 - INFO -     Barangay 118207003: 30 prospects
+2025-11-20 23:38:31,771 - INFO -   Banlag (118207003): 30 stores available (total: 30)
+2025-11-20 23:38:32,263 - INFO -     Barangay 112510001: 16 prospects
+2025-11-20 23:38:32,347 - INFO -   Baon (112510001): 16 stores available (total: 16)
+2025-11-20 23:38:33,911 - INFO -     Barangay 112402143: 10 prospects
+2025-11-20 23:38:33,999 - INFO -   Barangay 10-A (Pob.) (112402143): 10 stores available (total: 10)
+2025-11-20 23:38:34,924 - INFO -     Barangay 112402144: 8 prospects
+2025-11-20 23:38:35,012 - INFO -   Barangay 11-B (Pob.) (112402144): 8 stores available (total: 8)
+2025-11-20 23:38:35,502 - INFO -     Barangay 112402145: 28 prospects
+2025-11-20 23:38:35,586 - INFO -   Barangay 12-B (Pob.) (112402145): 28 stores available (total: 28)
+2025-11-20 23:38:36,073 - INFO -     Barangay 112402146: 1 prospects
+2025-11-20 23:38:36,184 - INFO -   Barangay 13-B (Pob.) (112402146): 1 stores available (total: 1)
+2025-11-20 23:38:36,670 - INFO -     Barangay 112402147: 2 prospects
+2025-11-20 23:38:36,754 - INFO -   Barangay 14-B (Pob.) (112402147): 2 stores available (total: 2)
+2025-11-20 23:38:37,379 - INFO -     Barangay 112402150: 3 prospects
+2025-11-20 23:38:37,465 - INFO -   Barangay 17-B (Pob.) (112402150): 3 stores available (total: 3)
+2025-11-20 23:38:39,406 - INFO -     Barangay 112402152: 328 prospects
+2025-11-20 23:38:39,513 - INFO -   Barangay 19-B (Pob.) (112402152): 328 stores available (total: 328)
+2025-11-20 23:38:40,005 - INFO -     Barangay 112402134: 31 prospects
+2025-11-20 23:38:40,085 - INFO -   Barangay 1-A (Pob.) (112402134): 31 stores available (total: 31)
+2025-11-20 23:38:40,758 - INFO -     Barangay 112402153: 10 prospects
+2025-11-20 23:38:40,908 - INFO -   Barangay 20-B (Pob.) (112402153): 10 stores available (total: 10)
+2025-11-20 23:38:41,407 - INFO -     Barangay 112402154: 94 prospects
+2025-11-20 23:38:41,480 - INFO -   Barangay 21-C (Pob.) (112402154): 94 stores available (total: 94)
+2025-11-20 23:38:42,047 - INFO -     Barangay 112402155: 93 prospects
+2025-11-20 23:38:42,213 - INFO -   Barangay 22-C (Pob.) (112402155): 93 stores available (total: 93)
+2025-11-20 23:38:44,251 - INFO -     Barangay 112402156: 191 prospects
+2025-11-20 23:38:44,326 - INFO -   Barangay 23-C (Pob.) (112402156): 191 stores available (total: 191)
+2025-11-20 23:38:44,813 - INFO -     Barangay 112402157: 18 prospects
+2025-11-20 23:38:44,899 - INFO -   Barangay 24-C (Pob.) (112402157): 18 stores available (total: 18)
+2025-11-20 23:38:45,466 - INFO -     Barangay 112402158: 6 prospects
+2025-11-20 23:38:45,556 - INFO -   Barangay 25-C (Pob.) (112402158): 6 stores available (total: 6)
+2025-11-20 23:38:46,047 - INFO -     Barangay 112402159: 8 prospects
+2025-11-20 23:38:46,188 - INFO -   Barangay 26-C (Pob.) (112402159): 8 stores available (total: 8)
+2025-11-20 23:38:46,711 - INFO -     Barangay 112402160: 17 prospects
+2025-11-20 23:38:46,828 - INFO -   Barangay 27-C (Pob.) (112402160): 17 stores available (total: 17)
+2025-11-20 23:38:48,526 - INFO -     Barangay 112402161: 21 prospects
+2025-11-20 23:38:48,590 - INFO -   Barangay 28-C (Pob.) (112402161): 21 stores available (total: 21)
+2025-11-20 23:38:49,336 - INFO -     Barangay 112402162: 3 prospects
+2025-11-20 23:38:49,477 - INFO -   Barangay 29-C (Pob.) (112402162): 3 stores available (total: 3)
+2025-11-20 23:38:49,968 - INFO -     Barangay 112402135: 92 prospects
+2025-11-20 23:38:50,097 - INFO -   Barangay 2-A (Pob.) (112402135): 92 stores available (total: 92)
+2025-11-20 23:38:50,598 - INFO -     Barangay 112402163: 6 prospects
+2025-11-20 23:38:50,691 - INFO -   Barangay 30-C (Pob.) (112402163): 6 stores available (total: 6)
+2025-11-20 23:38:51,200 - INFO -     Barangay 112402164: 23 prospects
+2025-11-20 23:38:51,277 - INFO -   Barangay 31-D (Pob.) (112402164): 23 stores available (total: 23)
+2025-11-20 23:38:52,155 - INFO -     Barangay 112402165: 6 prospects
+2025-11-20 23:38:52,212 - INFO -   Barangay 32-D (Pob.) (112402165): 6 stores available (total: 6)
+2025-11-20 23:38:53,870 - INFO -     Barangay 112402166: 6 prospects
+2025-11-20 23:38:53,953 - INFO -   Barangay 33-D (Pob.) (112402166): 6 stores available (total: 6)
+2025-11-20 23:38:54,449 - INFO -     Barangay 112402167: 16 prospects
+2025-11-20 23:38:54,560 - INFO -   Barangay 34-D (Pob.) (112402167): 16 stores available (total: 16)
+2025-11-20 23:38:55,054 - INFO -     Barangay 112402168: 1 prospects
+2025-11-20 23:38:55,174 - INFO -   Barangay 35-D (Pob.) (112402168): 1 stores available (total: 1)
+2025-11-20 23:38:55,672 - INFO -     Barangay 112402169: 18 prospects
+2025-11-20 23:38:55,808 - INFO -   Barangay 36-D (Pob.) (112402169): 18 stores available (total: 18)
+2025-11-20 23:38:58,046 - INFO -     Barangay 112402170: 25 prospects
+2025-11-20 23:38:58,149 - INFO -   Barangay 37-D (Pob.) (112402170): 25 stores available (total: 25)
+2025-11-20 23:38:58,641 - INFO -     Barangay 112402171: 24 prospects
+2025-11-20 23:38:58,733 - INFO -   Barangay 38-D (Pob.) (112402171): 24 stores available (total: 24)
+2025-11-20 23:38:59,233 - INFO -     Barangay 112402172: 5 prospects
+2025-11-20 23:38:59,334 - INFO -   Barangay 39-D (Pob.) (112402172): 5 stores available (total: 5)
+2025-11-20 23:39:00,251 - INFO -     Barangay 112402136: 7 prospects
+2025-11-20 23:39:00,399 - INFO -   Barangay 3-A (Pob.) (112402136): 7 stores available (total: 7)
+2025-11-20 23:39:00,923 - INFO -     Barangay 112402173: 3 prospects
+2025-11-20 23:39:01,124 - INFO -   Barangay 40-D (Pob.) (112402173): 3 stores available (total: 3)
+2025-11-20 23:39:02,471 - INFO -     Barangay 112402137: 17 prospects
+2025-11-20 23:39:02,544 - INFO -   Barangay 4-A (Pob.) (112402137): 17 stores available (total: 17)
+2025-11-20 23:39:05,852 - INFO -     Barangay 112402138: 160 prospects
+2025-11-20 23:39:05,911 - INFO -   Barangay 5-A (Pob.) (112402138): 160 stores available (total: 160)
+2025-11-20 23:39:07,021 - INFO -     Barangay 112402139: 26 prospects
+2025-11-20 23:39:07,162 - INFO -   Barangay 6-A (Pob.) (112402139): 26 stores available (total: 26)
+2025-11-20 23:39:08,103 - INFO -     Barangay 112402140: 3 prospects
+2025-11-20 23:39:08,182 - INFO -   Barangay 7-A (Pob.) (112402140): 3 stores available (total: 3)
+2025-11-20 23:39:08,765 - INFO -     Barangay 112402141: 76 prospects
+2025-11-20 23:39:08,841 - INFO -   Barangay 8-A (Pob.) (112402141): 76 stores available (total: 76)
+2025-11-20 23:39:09,736 - INFO -     Barangay 112402142: 7 prospects
+2025-11-20 23:39:09,854 - INFO -   Barangay 9-A (Pob.) (112402142): 7 stores available (total: 7)
+2025-11-20 23:39:10,459 - INFO -     Barangay 112407003: 7 prospects
+2025-11-20 23:39:10,551 - INFO -   Barayong (112407003): 7 stores available (total: 7)
+2025-11-20 23:39:11,996 - INFO -     Barangay 118209003: 13 prospects
+2025-11-20 23:39:12,091 - INFO -   Basak (118209003): 13 stores available (total: 13)
+2025-11-20 23:39:12,795 - INFO -     Barangay 112402014: 100 prospects
+2025-11-20 23:39:12,925 - INFO -   Bato (112402014): 100 stores available (total: 100)
+2025-11-20 23:39:13,598 - INFO -     Barangay 112412002: 31 prospects
+2025-11-20 23:39:13,752 - INFO -   Bato (112412002): 31 stores available (total: 31)
+2025-11-20 23:39:14,368 - INFO -     Barangay 112510012: 59 prospects
+2025-11-20 23:39:14,504 - INFO -   Batobato (Pob.) (112510012): 59 stores available (total: 59)
+2025-11-20 23:39:15,022 - INFO -     Barangay 112402015: 31 prospects
+2025-11-20 23:39:15,173 - INFO -   Bayabas (112402015): 31 stores available (total: 31)
+2025-11-20 23:39:17,198 - INFO -     Barangay 112408002: 3 prospects
+2025-11-20 23:39:17,292 - INFO -   Baybay (112408002): 3 stores available (total: 3)
+2025-11-20 23:39:22,435 - INFO -     Barangay 118202021: 8 prospects
+2025-11-20 23:39:22,616 - INFO -   Belmonte (118202021): 8 stores available (total: 8)
+2025-11-20 23:39:24,977 - INFO -     Barangay 112403004: 10 prospects
+2025-11-20 23:39:25,061 - INFO -   Binaton (112403004): 10 stores available (total: 10)
+2025-11-20 23:39:25,742 - INFO -     Barangay 112319003: 4 prospects
+2025-11-20 23:39:25,825 - INFO -   Bincungan (112319003): 4 stores available (total: 4)
+2025-11-20 23:39:26,333 - INFO -     Barangay 118204003: 21 prospects
+2025-11-20 23:39:26,428 - INFO -   Binuangan (118204003): 21 stores available (total: 21)
+2025-11-20 23:39:26,932 - INFO -     Barangay 112402019: 2 prospects
+2025-11-20 23:39:27,016 - INFO -   Binugao (112402019): 2 stores available (total: 2)
+2025-11-20 23:39:28,932 - INFO -     Barangay 112401004: 1 prospects
+2025-11-20 23:39:29,041 - INFO -   Bitaug (112401004): 1 stores available (total: 1)
+2025-11-20 23:39:29,578 - INFO -     Barangay 112407004: 7 prospects
+2025-11-20 23:39:29,674 - INFO -   Blocon (112407004): 7 stores available (total: 7)
+2025-11-20 23:39:30,187 - INFO -     Barangay 112509002: 39 prospects
+2025-11-20 23:39:30,269 - INFO -   Bobon (112509002): 39 stores available (total: 39)
+2025-11-20 23:39:30,777 - INFO -     Barangay 112501006: 8 prospects
+2025-11-20 23:39:30,875 - INFO -   Bobonao (112501006): 8 stores available (total: 8)
+2025-11-20 23:39:31,379 - INFO -     Barangay 118211002: 96 prospects
+2025-11-20 23:39:31,531 - INFO -   Bongbong (118211002): 96 stores available (total: 96)
+2025-11-20 23:39:33,344 - INFO -     Barangay 112401005: 3 prospects
+2025-11-20 23:39:33,471 - INFO -   Bonifacio (112401005): 3 stores available (total: 3)
+2025-11-20 23:39:34,313 - INFO -     Barangay 112410005: 11 prospects
+2025-11-20 23:39:34,384 - INFO -   Buas (112410005): 11 stores available (total: 11)
+2025-11-20 23:39:34,908 - INFO -     Barangay 112402020: 656 prospects
+2025-11-20 23:39:34,991 - INFO -   Bucana (112402020): 656 stores available (total: 656)
+2025-11-20 23:39:35,527 - INFO -     Barangay 112301007: 15 prospects
+2025-11-20 23:39:35,603 - INFO -   Buclad (112301007): 15 stores available (total: 15)
+2025-11-20 23:39:36,109 - INFO -     Barangay 112402178: 64 prospects
+2025-11-20 23:39:36,193 - INFO -   Buda (112402178): 64 stores available (total: 64)
+2025-11-20 23:39:38,338 - INFO -     Barangay 112401006: 11 prospects
+2025-11-20 23:39:38,427 - INFO -   Buenavista (112401006): 11 stores available (total: 11)
+2025-11-20 23:39:38,942 - INFO -     Barangay 112402021: 438 prospects
+2025-11-20 23:39:39,016 - INFO -   Buhangin (Pob.) (112402021): 438 stores available (total: 438)
+2025-11-20 23:39:39,536 - INFO -     Barangay 112402022: 292 prospects
+2025-11-20 23:39:39,611 - INFO -   Bunawan (Pob.) (112402022): 292 stores available (total: 292)
+2025-11-20 23:39:40,211 - INFO -     Barangay 112410006: 15 prospects
+2025-11-20 23:39:40,299 - INFO -   Buri (112410006): 15 stores available (total: 15)
+2025-11-20 23:39:41,023 - INFO -     Barangay 112319004: 4 prospects
+2025-11-20 23:39:41,108 - INFO -   Busaon (112319004): 4 stores available (total: 4)
+2025-11-20 23:39:41,933 - INFO -     Barangay 112509003: 7 prospects
+2025-11-20 23:39:42,124 - INFO -   Buso (112509003): 7 stores available (total: 7)
+2025-11-20 23:39:43,583 - INFO -     Barangay 112511001: 2 prospects
+2025-11-20 23:39:43,686 - INFO -   Cabagayan (112511001): 2 stores available (total: 2)
+2025-11-20 23:39:44,336 - INFO -     Barangay 112502001: 27 prospects
+2025-11-20 23:39:44,502 - INFO -   Cabangcalan (112502001): 27 stores available (total: 27)
+2025-11-20 23:39:45,038 - INFO -     Barangay 112402023: 50 prospects
+2025-11-20 23:39:45,182 - INFO -   Cabantian (112402023): 50 stores available (total: 50)
+2025-11-20 23:39:45,692 - INFO -     Barangay 112503001: 7 prospects
+2025-11-20 23:39:45,868 - INFO -   Cabasagan (112503001): 7 stores available (total: 7)
+2025-11-20 23:39:50,038 - INFO -     Barangay 112323001: 29 prospects
+2025-11-20 23:39:50,126 - INFO -   Cabay-Angan (112323001): 29 stores available (total: 29)
+2025-11-20 23:39:51,217 - INFO -     Barangay 112301008: 6 prospects
+2025-11-20 23:39:51,319 - INFO -   Cabaywa (112301008): 6 stores available (total: 6)
+2025-11-20 23:39:51,839 - INFO -     Barangay 118209005: 7 prospects
+2025-11-20 23:39:51,995 - INFO -   Cabidianan (118209005): 7 stores available (total: 7)
+2025-11-20 23:39:52,545 - INFO -     Barangay 112314001: 3 prospects
+2025-11-20 23:39:52,625 - INFO -   Cabidianan (112314001): 3 stores available (total: 3)
+2025-11-20 23:39:53,126 - INFO -     Barangay 118210011: 23 prospects
+2025-11-20 23:39:53,211 - INFO -   Cabinuangan (Pob.) (118210011): 23 stores available (total: 23)
+2025-11-20 23:39:55,537 - INFO -     Barangay 112402024: 20 prospects
+2025-11-20 23:39:55,614 - INFO -   Cadalian (112402024): 20 stores available (total: 20)
+2025-11-20 23:39:56,106 - INFO -     Barangay 118203002: 1 prospects
+2025-11-20 23:39:56,216 - INFO -   Cadunan (118203002): 1 stores available (total: 1)
+2025-11-20 23:39:56,715 - INFO -     Barangay 112502002: 11 prospects
+2025-11-20 23:39:56,805 - INFO -   Caganganan (112502002): 11 stores available (total: 11)
+2025-11-20 23:39:57,302 - INFO -     Barangay 112507006: 36 prospects
+2025-11-20 23:39:57,389 - INFO -   Calapagan (112507006): 36 stores available (total: 36)
+2025-11-20 23:39:57,895 - INFO -     Barangay 112317007: 38 prospects
+2025-11-20 23:39:57,969 - INFO -   Caliclic (Dangca-an) (112317007): 38 stores available (total: 38)
+2025-11-20 23:39:58,949 - INFO -     Barangay 112402026: 290 prospects
+2025-11-20 23:39:59,031 - INFO -   Calinan (Pob.) (112402026): 290 stores available (total: 290)
+2025-11-20 23:40:00,532 - INFO -     Barangay 112402027: 4 prospects
+2025-11-20 23:40:00,611 - INFO -   Callawa (112402027): 4 stores available (total: 4)
+2025-11-20 23:40:01,112 - INFO -     Barangay 112502003: 35 prospects
+2025-11-20 23:40:01,196 - INFO -   Calubihan (112502003): 35 stores available (total: 35)
+2025-11-20 23:40:01,700 - INFO -     Barangay 112410007: 3 prospects
+2025-11-20 23:40:01,786 - INFO -   Camanchiles (112410007): 3 stores available (total: 3)
+2025-11-20 23:40:02,317 - INFO -     Barangay 118210003: 1 prospects
+2025-11-20 23:40:02,396 - INFO -   Camanlangan (118210003): 1 stores available (total: 1)
+2025-11-20 23:40:03,185 - INFO -     Barangay 118208005: 15 prospects
+2025-11-20 23:40:03,274 - INFO -   Camansi (118208005): 15 stores available (total: 15)
+2025-11-20 23:40:04,557 - INFO -     Barangay 118208006: 4 prospects
+2025-11-20 23:40:04,703 - INFO -   Camantangan (118208006): 4 stores available (total: 4)
+2025-11-20 23:40:05,251 - INFO -     Barangay 112510004: 11 prospects
+2025-11-20 23:40:05,447 - INFO -   Cambaleon (112510004): 11 stores available (total: 11)
+2025-11-20 23:40:06,047 - INFO -     Barangay 112301032: 19 prospects
+2025-11-20 23:40:06,188 - INFO -   Cambanogoy (Pob.) (112301032): 19 stores available (total: 19)
+2025-11-20 23:40:06,689 - INFO -     Barangay 112301010: 103 prospects
+2025-11-20 23:40:06,773 - INFO -   Camoning (112301010): 103 stores available (total: 103)
+2025-11-20 23:40:07,279 - INFO -     Barangay 112317008: 42 prospects
+2025-11-20 23:40:07,452 - INFO -   Camudmud (112317008): 42 stores available (total: 42)
+2025-11-20 23:40:08,311 - INFO -     Barangay 112301011: 19 prospects
+2025-11-20 23:40:08,439 - INFO -   Canatan (112301011): 19 stores available (total: 19)
+2025-11-20 23:40:10,066 - INFO -     Barangay 112319005: 52 prospects
+2025-11-20 23:40:10,241 - INFO -   Canocotan (112319005): 52 stores available (total: 52)
+2025-11-20 23:40:10,764 - INFO -     Barangay 112305008: 5 prospects
+2025-11-20 23:40:10,859 - INFO -   Capungagan (112305008): 5 stores available (total: 5)
+2025-11-20 23:40:11,357 - INFO -     Barangay 112408006: 10 prospects
+2025-11-20 23:40:11,450 - INFO -   Caputian (112408006): 10 stores available (total: 10)
+2025-11-20 23:40:11,943 - INFO -     Barangay 112402029: 30 prospects
+2025-11-20 23:40:12,101 - INFO -   Carmen (112402029): 30 stores available (total: 30)
+2025-11-20 23:40:13,149 - INFO -     Barangay 118207005: 1 prospects
+2025-11-20 23:40:13,243 - INFO -   Casoon (118207005): 1 stores available (total: 1)
+2025-11-20 23:40:14,949 - INFO -     Barangay 112317009: 39 prospects
+2025-11-20 23:40:15,081 - INFO -   Catagman (112317009): 39 stores available (total: 39)
+2025-11-20 23:40:15,593 - INFO -     Barangay 112402030: 240 prospects
+2025-11-20 23:40:15,695 - INFO -   Catalunan Grande (112402030): 240 stores available (total: 240)
+2025-11-20 23:40:16,198 - INFO -     Barangay 112402031: 169 prospects
+2025-11-20 23:40:16,276 - INFO -   Catalunan Pequeño (112402031): 169 stores available (total: 169)
+2025-11-20 23:40:16,773 - INFO -     Barangay 112402032: 11 prospects
+2025-11-20 23:40:16,852 - INFO -   Catigan (112402032): 11 stores available (total: 11)
+2025-11-20 23:40:17,598 - INFO -     Barangay 112402033: 6 prospects
+2025-11-20 23:40:17,807 - INFO -   Cawayan (112402033): 6 stores available (total: 6)
+2025-11-20 23:40:19,272 - INFO -     Barangay 112410008: 6 prospects
+2025-11-20 23:40:19,449 - INFO -   Ceboza (112410008): 6 stores available (total: 6)
+2025-11-20 23:40:19,964 - INFO -     Barangay 112303005: 19 prospects
+2025-11-20 23:40:20,082 - INFO -   Cebulano (112303005): 19 stores available (total: 19)
+2025-11-20 23:40:20,913 - INFO -     Barangay 118202004: 1 prospects
+2025-11-20 23:40:20,992 - INFO -   Cebulida (118202004): 1 stores available (total: 1)
+2025-11-20 23:40:21,491 - INFO -     Barangay 112501008: 58 prospects
+2025-11-20 23:40:21,579 - INFO -   Central (Pob.) (112501008): 58 stores available (total: 58)
+2025-11-20 23:40:22,092 - INFO -     Barangay 112509005: 10 prospects
+2025-11-20 23:40:22,176 - INFO -   Central (Pob.) (112509005): 10 stores available (total: 10)
+2025-11-20 23:40:23,705 - INFO -     Barangay 112508003: 81 prospects
+2025-11-20 23:40:23,789 - INFO -   Central (Pob.) (112508003): 81 stores available (total: 81)
+2025-11-20 23:40:24,389 - INFO -     Barangay 112511002: 41 prospects
+2025-11-20 23:40:24,480 - INFO -   Central (Pob.) (112511002): 41 stores available (total: 41)
+2025-11-20 23:40:24,975 - INFO -     Barangay 112402179: 92 prospects
+2025-11-20 23:40:25,065 - INFO -   Centro (San Juan) (112402179): 92 stores available (total: 92)
+2025-11-20 23:40:25,563 - INFO -     Barangay 112507008: 5 prospects
+2025-11-20 23:40:25,652 - INFO -   Cocornon (112507008): 5 stores available (total: 5)
+2025-11-20 23:40:26,178 - INFO -     Barangay 112403005: 25 prospects
+2025-11-20 23:40:26,451 - INFO -   Cogon (112403005): 25 stores available (total: 25)
+2025-11-20 23:40:28,062 - INFO -     Barangay 112410009: 10 prospects
+2025-11-20 23:40:28,248 - INFO -   Colonsabak (112410009): 10 stores available (total: 10)
+2025-11-20 23:40:28,907 - INFO -     Barangay 112403006: 5 prospects
+2025-11-20 23:40:29,010 - INFO -   Colorado (112403006): 5 stores available (total: 5)
+2025-11-20 23:40:29,544 - INFO -     Barangay 112402034: 10 prospects
+2025-11-20 23:40:29,623 - INFO -   Colosas (112402034): 10 stores available (total: 10)
+2025-11-20 23:40:30,137 - INFO -     Barangay 112402035: 111 prospects
+2025-11-20 23:40:30,227 - INFO -   Communal (112402035): 111 stores available (total: 111)
+2025-11-20 23:40:30,727 - INFO -     Barangay 112301012: 1 prospects
+2025-11-20 23:40:30,802 - INFO -   Concepcion (112301012): 1 stores available (total: 1)
+2025-11-20 23:40:31,733 - INFO -     Barangay 112507009: 8 prospects
+2025-11-20 23:40:31,812 - INFO -   Corporacion (112507009): 8 stores available (total: 8)
+2025-11-20 23:40:33,107 - INFO -     Barangay 112506020: 20 prospects
+2025-11-20 23:40:33,244 - INFO -   Crispin Dela Cruz (112506020): 20 stores available (total: 20)
+2025-11-20 23:40:33,757 - INFO -     Barangay 112402036: 180 prospects
+2025-11-20 23:40:33,836 - INFO -   Crossing Bayabas (112402036): 180 stores available (total: 180)
+2025-11-20 23:40:34,405 - INFO -     Barangay 118203007: 15 prospects
+2025-11-20 23:40:34,481 - INFO -   Cuambog (Pob.) (118203007): 15 stores available (total: 15)
+2025-11-20 23:40:35,193 - INFO -     Barangay 112319006: 77 prospects
+2025-11-20 23:40:35,279 - INFO -   Cuambogan (112319006): 77 stores available (total: 77)
+2025-11-20 23:40:35,774 - INFO -     Barangay 112509006: 14 prospects
+2025-11-20 23:40:35,871 - INFO -   Culian (112509006): 14 stores available (total: 14)
+2025-11-20 23:40:37,599 - INFO -     Barangay 112324001: 11 prospects
+2025-11-20 23:40:37,673 - INFO -   Dacudao (112324001): 11 stores available (total: 11)
+2025-11-20 23:40:40,800 - INFO -     Barangay 112402037: 4 prospects
+2025-11-20 23:40:40,874 - INFO -   Dacudao (112402037): 4 stores available (total: 4)
+2025-11-20 23:40:42,624 - INFO -     Barangay 112317013: 12 prospects
+2025-11-20 23:40:42,766 - INFO -   Dadatan (112317013): 12 stores available (total: 12)
+2025-11-20 23:40:43,270 - INFO -     Barangay 112511003: 16 prospects
+2025-11-20 23:40:43,451 - INFO -   Dadong (112511003): 16 stores available (total: 16)
+2025-11-20 23:40:44,024 - INFO -     Barangay 112509007: 12 prospects
+2025-11-20 23:40:44,128 - INFO -   Dahican (112509007): 12 stores available (total: 12)
+2025-11-20 23:40:44,624 - INFO -     Barangay 112407005: 6 prospects
+2025-11-20 23:40:44,721 - INFO -   Dalawinon (112407005): 6 stores available (total: 6)
+2025-11-20 23:40:45,234 - INFO -     Barangay 112402040: 110 prospects
+2025-11-20 23:40:45,325 - INFO -   Daliao (112402040): 110 stores available (total: 110)
+2025-11-20 23:40:47,350 - INFO -     Barangay 112402041: 5 prospects
+2025-11-20 23:40:47,440 - INFO -   Daliaon Plantation (112402041): 5 stores available (total: 5)
+2025-11-20 23:40:53,943 - INFO -     Barangay 112407006: 5 prospects
+2025-11-20 23:40:54,029 - INFO -   Dalumay (112407006): 5 stores available (total: 5)
+2025-11-20 23:40:55,214 - INFO -     Barangay 112501009: 3 prospects
+2025-11-20 23:40:55,299 - INFO -   Dapnan (112501009): 3 stores available (total: 3)
+2025-11-20 23:40:56,453 - INFO -     Barangay 112406010: 15 prospects
+2025-11-20 23:40:56,535 - INFO -   Dapok (112406010): 15 stores available (total: 15)
+2025-11-20 23:40:57,161 - INFO -     Barangay 112412004: 2 prospects
+2025-11-20 23:40:57,251 - INFO -   Darong (112412004): 2 stores available (total: 2)
+2025-11-20 23:40:57,782 - INFO -     Barangay 112315002: 186 prospects
+2025-11-20 23:40:57,877 - INFO -   Datu Abdul Dadia (112315002): 186 stores available (total: 186)
+2025-11-20 23:40:59,833 - INFO -     Barangay 112402180: 24 prospects
+2025-11-20 23:40:59,919 - INFO -   Datu Salumay (112402180): 24 stores available (total: 24)
+2025-11-20 23:41:00,438 - INFO -     Barangay 112509009: 8 prospects
+2025-11-20 23:41:00,497 - INFO -   Dawan (112509009): 8 stores available (total: 8)
+2025-11-20 23:41:01,107 - INFO -     Barangay 112314003: 9 prospects
+2025-11-20 23:41:01,190 - INFO -   Del Monte (112314003): 9 stores available (total: 9)
+2025-11-20 23:41:01,693 - INFO -     Barangay 118203014: 1 prospects
+2025-11-20 23:41:01,785 - INFO -   Del Pilar (118203014): 1 stores available (total: 1)
+2025-11-20 23:41:02,570 - INFO -     Barangay 112314004: 13 prospects
+2025-11-20 23:41:02,646 - INFO -   Del Pilar (112314004): 13 stores available (total: 13)
+2025-11-20 23:41:04,725 - INFO -     Barangay 112401008: 7 prospects
+2025-11-20 23:41:04,802 - INFO -   Dolo (112401008): 7 stores available (total: 7)
+2025-11-20 23:41:05,558 - INFO -     Barangay 112402042: 1 prospects
+2025-11-20 23:41:05,643 - INFO -   Dominga (112402042): 1 stores available (total: 1)
+2025-11-20 23:41:06,174 - INFO -     Barangay 112506003: 1 prospects
+2025-11-20 23:41:06,265 - INFO -   Don Aurelio Chicote (112506003): 1 stores available (total: 1)
+2025-11-20 23:41:07,093 - INFO -     Barangay 112509010: 45 prospects
+2025-11-20 23:41:07,168 - INFO -   Don Enrique Lopez (112509010): 45 stores available (total: 45)
+2025-11-20 23:41:08,681 - INFO -     Barangay 112504004: 1 prospects
+2025-11-20 23:41:08,772 - INFO -   Don Leon Balante (112504004): 1 stores available (total: 1)
+2025-11-20 23:41:09,604 - INFO -     Barangay 112507010: 2 prospects
+2025-11-20 23:41:09,676 - INFO -   Don Mariano Marcos (112507010): 2 stores available (total: 2)
+2025-11-20 23:41:10,476 - INFO -     Barangay 112509011: 35 prospects
+2025-11-20 23:41:10,551 - INFO -   Don Martin Marundan (112509011): 35 stores available (total: 35)
+2025-11-20 23:41:11,087 - INFO -     Barangay 112509012: 25 prospects
+2025-11-20 23:41:11,180 - INFO -   Don Salvador Lopez, Sr. (112509012): 25 stores available (total: 25)
+2025-11-20 23:41:11,703 - INFO -     Barangay 112411002: 6 prospects
+2025-11-20 23:41:11,785 - INFO -   Don Sergio Osmeña, Sr. (112411002): 6 stores available (total: 6)
+2025-11-20 23:41:13,651 - INFO -     Barangay 112301013: 10 prospects
+2025-11-20 23:41:13,763 - INFO -   Doña Andrea (112301013): 10 stores available (total: 10)
+2025-11-20 23:41:14,594 - INFO -     Barangay 112323002: 43 prospects
+2025-11-20 23:41:14,676 - INFO -   Dujali (112323002): 43 stores available (total: 43)
+2025-11-20 23:41:15,187 - INFO -     Barangay 112403008: 30 prospects
+2025-11-20 23:41:15,269 - INFO -   Dulangan (112403008): 30 stores available (total: 30)
+2025-11-20 23:41:15,784 - INFO -     Barangay 118204007: 28 prospects
+2025-11-20 23:41:15,896 - INFO -   Dumlan (118204007): 28 stores available (total: 28)
+2025-11-20 23:41:16,430 - INFO -     Barangay 112402043: 253 prospects
+2025-11-20 23:41:16,499 - INFO -   Dumoy (112402043): 253 stores available (total: 253)
+2025-11-20 23:41:18,376 - INFO -     Barangay 118202027: 1 prospects
+2025-11-20 23:41:18,447 - INFO -   El Katipunan (118202027): 1 stores available (total: 1)
+2025-11-20 23:41:19,439 - INFO -     Barangay 112314005: 4 prospects
+2025-11-20 23:41:19,528 - INFO -   El Salvador (112314005): 4 stores available (total: 4)
+2025-11-20 23:41:20,047 - INFO -     Barangay 118204008: 24 prospects
+2025-11-20 23:41:20,129 - INFO -   Elizalde (Somil) (118204008): 24 stores available (total: 24)
+2025-11-20 23:41:20,636 - INFO -     Barangay 112401009: 9 prospects
+2025-11-20 23:41:20,708 - INFO -   Eman (112401009): 9 stores available (total: 9)
+2025-11-20 23:41:21,259 - INFO -     Barangay 118210005: 1 prospects
+2025-11-20 23:41:21,344 - INFO -   Fatima (118210005): 1 stores available (total: 1)
+2025-11-20 23:41:21,858 - INFO -     Barangay 112402045: 5 prospects
+2025-11-20 23:41:21,958 - INFO -   Fatima (Benowang) (112402045): 5 stores available (total: 5)
+2025-11-20 23:41:24,037 - INFO -     Barangay 112305005: 17 prospects
+2025-11-20 23:41:24,114 - INFO -   Florida (112305005): 17 stores available (total: 17)
+2025-11-20 23:41:24,676 - INFO -     Barangay 118201002: 4 prospects
+2025-11-20 23:41:24,762 - INFO -   Gabi (118201002): 4 stores available (total: 4)
+2025-11-20 23:41:25,279 - INFO -     Barangay 112305006: 44 prospects
+2025-11-20 23:41:25,358 - INFO -   Gabuyan (112305006): 44 stores available (total: 44)
+2025-11-20 23:41:25,870 - INFO -     Barangay 112407007: 6 prospects
+2025-11-20 23:41:25,958 - INFO -   Glamang (112407007): 6 stores available (total: 6)
+2025-11-20 23:41:26,549 - INFO -     Barangay 112402181: 53 prospects
+2025-11-20 23:41:26,625 - INFO -   Gov. Paciano Bangoy (112402181): 53 stores available (total: 53)
+2025-11-20 23:41:28,407 - INFO -     Barangay 112402182: 106 prospects
+2025-11-20 23:41:28,501 - INFO -   Gov. Vicente Duterte (112402182): 106 stores available (total: 106)
+2025-11-20 23:41:29,362 - INFO -     Barangay 112303006: 13 prospects
+2025-11-20 23:41:29,443 - INFO -   Guadalupe (112303006): 13 stores available (total: 13)
+2025-11-20 23:41:30,015 - INFO -     Barangay 112317015: 15 prospects
+2025-11-20 23:41:30,093 - INFO -   Guilon (112317015): 15 stores available (total: 15)
+2025-11-20 23:41:30,605 - INFO -     Barangay 112402048: 1 prospects
+2025-11-20 23:41:30,696 - INFO -   Gumalang (112402048): 1 stores available (total: 1)
+2025-11-20 23:41:30,952 - INFO -   Haguimitan (118207007): 0 stores available (total: 0)
+2025-11-20 23:41:31,517 - INFO -     Barangay 112411003: 15 prospects
+2025-11-20 23:41:31,589 - INFO -   Harada Butai (112411003): 15 stores available (total: 15)
+2025-11-20 23:41:33,618 - INFO -     Barangay 118204011: 38 prospects
+2025-11-20 23:41:33,704 - INFO -   Hijo (118204011): 38 stores available (total: 38)
+2025-11-20 23:41:34,267 - INFO -     Barangay 112510006: 5 prospects
+2025-11-20 23:41:34,339 - INFO -   Iba (112510006): 5 stores available (total: 5)
+2025-11-20 23:41:34,889 - INFO -     Barangay 112408007: 1 prospects
+2025-11-20 23:41:34,966 - INFO -   Ibo (112408007): 1 stores available (total: 1)
+2025-11-20 23:41:35,500 - INFO -     Barangay 112324003: 43 prospects
+2025-11-20 23:41:35,582 - INFO -   Igangon (112324003): 43 stores available (total: 43)
+2025-11-20 23:41:36,247 - INFO -     Barangay 112402049: 353 prospects
+2025-11-20 23:41:36,337 - INFO -   Ilang (112402049): 353 stores available (total: 353)
+2025-11-20 23:41:38,124 - INFO -     Barangay 112507011: 19 prospects
+2025-11-20 23:41:38,207 - INFO -   Ilangay (112507011): 19 stores available (total: 19)
+2025-11-20 23:41:38,902 - INFO -     Barangay 118202028: 4 prospects
+2025-11-20 23:41:39,001 - INFO -   Imelda (118202028): 4 stores available (total: 4)
+2025-11-20 23:41:39,561 - INFO -     Barangay 118202029: 7 prospects
+2025-11-20 23:41:39,647 - INFO -   Inacayan (118202029): 7 stores available (total: 7)
+2025-11-20 23:41:40,162 - INFO -     Barangay 112412005: 3 prospects
+2025-11-20 23:41:40,246 - INFO -   Inawayan (112412005): 3 stores available (total: 3)
+2025-11-20 23:41:40,780 - INFO -     Barangay 112402184: 7 prospects
+2025-11-20 23:41:40,870 - INFO -   Inayangan (112402184): 7 stores available (total: 7)
+2025-11-20 23:41:42,935 - INFO -     Barangay 112402050: 25 prospects
+2025-11-20 23:41:43,014 - INFO -   Indangan (112402050): 25 stores available (total: 25)
+2025-11-20 23:41:43,803 - INFO -     Barangay 112303007: 3 prospects
+2025-11-20 23:41:43,871 - INFO -   Ising (Pob.) (112303007): 3 stores available (total: 3)
+2025-11-20 23:41:44,385 - INFO -     Barangay 112315010: 136 prospects
+2025-11-20 23:41:44,470 - INFO -   J.P. Laurel (112315010): 136 stores available (total: 136)
+2025-11-20 23:41:45,035 - INFO -     Barangay 112511004: 18 prospects
+2025-11-20 23:41:45,122 - INFO -   Jovellar (112511004): 18 stores available (total: 18)
+2025-11-20 23:41:45,623 - INFO -     Barangay 118210014: 2 prospects
+2025-11-20 23:41:45,700 - INFO -   Kahayag (118210014): 2 stores available (total: 2)
+2025-11-20 23:41:48,564 - INFO -     Barangay 112317016: 2 prospects
+2025-11-20 23:41:48,657 - INFO -   Kanaan (112317016): 2 stores available (total: 2)
+2025-11-20 23:41:50,087 - INFO -     Barangay 112407008: 5 prospects
+2025-11-20 23:41:50,159 - INFO -   Kanapulo (112407008): 5 stores available (total: 5)
+2025-11-20 23:41:50,673 - INFO -     Barangay 112402185: 3 prospects
+2025-11-20 23:41:50,743 - INFO -   Kap. Tomas Monteverde, Sr. (112402185): 3 stores available (total: 3)
+2025-11-20 23:41:51,259 - INFO -     Barangay 112403019: 49 prospects
+2025-11-20 23:41:51,344 - INFO -   Kapatagan (Rizal) (112403019): 49 stores available (total: 49)
+2025-11-20 23:41:51,856 - INFO -     Barangay 112407009: 11 prospects
+2025-11-20 23:41:51,935 - INFO -   Kasuga (112407009): 11 stores available (total: 11)
+2025-11-20 23:41:52,495 - INFO -     Barangay 118210006: 11 prospects
+2025-11-20 23:41:52,569 - INFO -   Katipunan (118210006): 11 stores available (total: 11)
+2025-11-20 23:41:54,678 - INFO -     Barangay 112305009: 25 prospects
+2025-11-20 23:41:54,762 - INFO -   Katipunan (112305009): 25 stores available (total: 25)
+2025-11-20 23:41:55,290 - INFO -     Barangay 112410014: 5 prospects
+2025-11-20 23:41:55,380 - INFO -   Kauswagan (112410014): 5 stores available (total: 5)
+2025-11-20 23:41:55,935 - INFO -     Barangay 112410015: 1 prospects
+2025-11-20 23:41:56,019 - INFO -   Kibao (112410015): 1 stores available (total: 1)
+2025-11-20 23:41:56,531 - INFO -     Barangay 112408009: 41 prospects
+2025-11-20 23:41:56,637 - INFO -   Kiblagon (112408009): 41 stores available (total: 41)
+2025-11-20 23:41:57,204 - INFO -     Barangay 112406012: 4 prospects
+2025-11-20 23:41:57,355 - INFO -   Kibongbong (112406012): 4 stores available (total: 4)
+2025-11-20 23:41:59,414 - INFO -     Barangay 118202008: 8 prospects
+2025-11-20 23:41:59,486 - INFO -   Kidawa (118202008): 8 stores available (total: 8)
+2025-11-20 23:42:00,006 - INFO -     Barangay 112402051: 17 prospects
+2025-11-20 23:42:00,100 - INFO -   Kilate (112402051): 17 stores available (total: 17)
+2025-11-20 23:42:00,745 - INFO -     Barangay 112318004: 18 prospects
+2025-11-20 23:42:00,841 - INFO -   Kimamon (112318004): 18 stores available (total: 18)
+2025-11-20 23:42:01,361 - INFO -     Barangay 112501010: 2 prospects
+2025-11-20 23:42:01,471 - INFO -   Kinablangan (112501010): 2 stores available (total: 2)
+2025-11-20 23:42:02,839 - INFO -     Barangay 112318005: 37 prospects
+2025-11-20 23:42:02,923 - INFO -   Kinamayan (112318005): 37 stores available (total: 37)
+2025-11-20 23:42:04,047 - INFO -     Barangay 112317017: 1 prospects
+2025-11-20 23:42:04,134 - INFO -   Kinawitnon (112317017): 1 stores available (total: 1)
+2025-11-20 23:42:04,653 - INFO -     Barangay 118211004: 114 prospects
+2025-11-20 23:42:04,738 - INFO -   Kingking (Pob.) (118211004): 114 stores available (total: 114)
+2025-11-20 23:42:05,293 - INFO -     Barangay 118204012: 43 prospects
+2025-11-20 23:42:05,379 - INFO -   Kinuban (118204012): 43 stores available (total: 43)
+2025-11-20 23:42:05,898 - INFO -     Barangay 112319007: 1 prospects
+2025-11-20 23:42:06,006 - INFO -   La Filipina (112319007): 1 stores available (total: 1)
+2025-11-20 23:42:09,814 - INFO -     Barangay 112303008: 42 prospects
+2025-11-20 23:42:09,902 - INFO -   La Paz (112303008): 42 stores available (total: 42)
+2025-11-20 23:42:11,607 - INFO -     Barangay 112410016: 5 prospects
+2025-11-20 23:42:11,696 - INFO -   La Suerte (112410016): 5 stores available (total: 5)
+2025-11-20 23:42:12,306 - INFO -     Barangay 112510007: 12 prospects
+2025-11-20 23:42:12,407 - INFO -   La Union (112510007): 12 stores available (total: 12)
+2025-11-20 23:42:13,041 - INFO -     Barangay 112402052: 26 prospects
+2025-11-20 23:42:13,122 - INFO -   Lacson (112402052): 26 stores available (total: 26)
+2025-11-20 23:42:15,190 - INFO -     Barangay 112402053: 13 prospects
+2025-11-20 23:42:15,265 - INFO -   Lamanan (112402053): 13 stores available (total: 13)
+2025-11-20 23:42:15,806 - INFO -     Barangay 112501011: 3 prospects
+2025-11-20 23:42:15,894 - INFO -   Lambajon (112501011): 3 stores available (total: 3)
+2025-11-20 23:42:16,398 - INFO -     Barangay 112508018: 4 prospects
+2025-11-20 23:42:16,493 - INFO -   Lambog (112508018): 4 stores available (total: 4)
+2025-11-20 23:42:17,087 - INFO -     Barangay 112504005: 1 prospects
+2025-11-20 23:42:17,169 - INFO -   Lamiawan (112504005): 1 stores available (total: 1)
+2025-11-20 23:42:17,757 - INFO -     Barangay 112402055: 25 prospects
+2025-11-20 23:42:17,839 - INFO -   Langub (112402055): 25 stores available (total: 25)
+2025-11-20 23:42:19,601 - INFO -     Barangay 112507014: 63 prospects
+2025-11-20 23:42:19,675 - INFO -   Lantawan (112507014): 63 stores available (total: 63)
+2025-11-20 23:42:20,484 - INFO -     Barangay 112402186: 79 prospects
+2025-11-20 23:42:20,562 - INFO -   Lapu-lapu (112402186): 79 stores available (total: 79)
+2025-11-20 23:42:21,072 - INFO -     Barangay 112510008: 6 prospects
+2025-11-20 23:42:21,162 - INFO -   Lapu-lapu (112510008): 6 stores available (total: 6)
+2025-11-20 23:42:21,674 - INFO -     Barangay 112408010: 1 prospects
+2025-11-20 23:42:21,786 - INFO -   Lapu-Lapu (Lapla) (112408010): 1 stores available (total: 1)
+2025-11-20 23:42:22,305 - INFO -     Barangay 112406016: 1 prospects
+2025-11-20 23:42:22,393 - INFO -   Lati-an (112406016): 1 stores available (total: 1)
+2025-11-20 23:42:22,932 - INFO -     Barangay 112506004: 12 prospects
+2025-11-20 23:42:23,017 - INFO -   Lavigan (112506004): 12 stores available (total: 12)
+2025-11-20 23:42:24,971 - INFO -     Barangay 112509015: 9 prospects
+2025-11-20 23:42:25,054 - INFO -   Lawigan (112509015): 9 stores available (total: 9)
+2025-11-20 23:42:25,612 - INFO -     Barangay 112404013: 1 prospects
+2025-11-20 23:42:25,701 - INFO -   Leling (112404013): 1 stores available (total: 1)
+2025-11-20 23:42:26,222 - INFO -     Barangay 112402187: 137 prospects
+2025-11-20 23:42:26,333 - INFO -   Leon Garcia, Sr. (112402187): 137 stores available (total: 137)
+2025-11-20 23:42:26,848 - INFO -     Barangay 118204015: 32 prospects
+2025-11-20 23:42:26,943 - INFO -   Libay-libay (118204015): 32 stores available (total: 32)
+2025-11-20 23:42:27,685 - INFO -     Barangay 112319008: 2 prospects
+2025-11-20 23:42:27,772 - INFO -   Liboganon (112319008): 2 stores available (total: 2)
+2025-11-20 23:42:29,580 - INFO -     Barangay 112509016: 19 prospects
+2025-11-20 23:42:29,671 - INFO -   Libudon (112509016): 19 stores available (total: 19)
+2025-11-20 23:42:30,185 - INFO -     Barangay 112324005: 24 prospects
+2025-11-20 23:42:30,266 - INFO -   Libuton (112324005): 24 stores available (total: 24)
+2025-11-20 23:42:30,959 - INFO -     Barangay 112317020: 13 prospects
+2025-11-20 23:42:31,037 - INFO -   Licup (112317020): 13 stores available (total: 13)
+2025-11-20 23:42:31,575 - INFO -     Barangay 112317021: 18 prospects
+2025-11-20 23:42:31,646 - INFO -   Limao (112317021): 18 stores available (total: 18)
+2025-11-20 23:42:32,190 - INFO -     Barangay 112314006: 16 prospects
+2025-11-20 23:42:32,285 - INFO -   Limba-an (112314006): 16 stores available (total: 16)
+2025-11-20 23:42:34,255 - INFO -     Barangay 112401012: 2 prospects
+2025-11-20 23:42:34,347 - INFO -   Linawan (112401012): 2 stores available (total: 2)
+2025-11-20 23:42:34,881 - INFO -     Barangay 118208011: 4 prospects
+2025-11-20 23:42:34,965 - INFO -   Linoan (118208011): 4 stores available (total: 4)
+2025-11-20 23:42:35,471 - INFO -     Barangay 112315016: 39 prospects
+2025-11-20 23:42:35,539 - INFO -   Little Panay (112315016): 39 stores available (total: 39)
+2025-11-20 23:42:36,076 - INFO -     Barangay 112402057: 94 prospects
+2025-11-20 23:42:36,162 - INFO -   Lizada (112402057): 94 stores available (total: 94)
+2025-11-20 23:42:36,689 - INFO -     Barangay 112402058: 42 prospects
+2025-11-20 23:42:36,770 - INFO -   Los Amigos (112402058): 42 stores available (total: 42)
+2025-11-20 23:42:38,645 - INFO -     Barangay 112407010: 11 prospects
+2025-11-20 23:42:38,727 - INFO -   Lower Bala (112407010): 11 stores available (total: 11)
+2025-11-20 23:42:39,617 - INFO -     Barangay 112411004: 9 prospects
+2025-11-20 23:42:39,694 - INFO -   Lower Katipunan (112411004): 9 stores available (total: 9)
+2025-11-20 23:42:40,204 - INFO -     Barangay 112411006: 1 prospects
+2025-11-20 23:42:40,288 - INFO -   Lower Malinao (112411006): 1 stores available (total: 1)
+2025-11-20 23:42:40,807 - INFO -     Barangay 112410019: 2 prospects
+2025-11-20 23:42:40,887 - INFO -   Lower Marber (112410019): 2 stores available (total: 2)
+2025-11-20 23:42:41,417 - INFO -     Barangay 112402059: 189 prospects
+2025-11-20 23:42:41,490 - INFO -   Lubogan (112402059): 189 stores available (total: 189)
+2025-11-20 23:42:41,994 - INFO -     Barangay 112501017: 3 prospects
+2025-11-20 23:42:42,082 - INFO -   Lucod (112501017): 3 stores available (total: 3)
+2025-11-20 23:42:44,059 - INFO -     Barangay 112305012: 11 prospects
+2025-11-20 23:42:44,144 - INFO -   Luna (112305012): 11 stores available (total: 11)
+2025-11-20 23:42:44,651 - INFO -     Barangay 112403012: 21 prospects
+2025-11-20 23:42:44,727 - INFO -   Lungag (112403012): 21 stores available (total: 21)
+2025-11-20 23:42:45,346 - INFO -     Barangay 112506005: 6 prospects
+2025-11-20 23:42:45,424 - INFO -   Luzon (112506005): 6 stores available (total: 6)
+2025-11-20 23:42:45,947 - INFO -     Barangay 112402061: 217 prospects
+2025-11-20 23:42:46,031 - INFO -   Ma-a (112402061): 217 stores available (total: 217)
+2025-11-20 23:42:46,545 - INFO -     Barangay 112510009: 1 prospects
+2025-11-20 23:42:46,626 - INFO -   Maag (112510009): 1 stores available (total: 1)
+2025-11-20 23:42:47,233 - INFO -     Barangay 112305013: 32 prospects
+2025-11-20 23:42:47,305 - INFO -   Mabantao (112305013): 32 stores available (total: 32)
+2025-11-20 23:42:48,795 - INFO -     Barangay 112401013: 5 prospects
+2025-11-20 23:42:48,887 - INFO -   Mabuhay (112401013): 5 stores available (total: 5)
+2025-11-20 23:42:49,438 - INFO -     Barangay 112303011: 13 prospects
+2025-11-20 23:42:49,516 - INFO -   Mabuhay (112303011): 13 stores available (total: 13)
+2025-11-20 23:42:50,025 - INFO -     Barangay 112402062: 15 prospects
+2025-11-20 23:42:50,164 - INFO -   Mabuhay (112402062): 15 stores available (total: 15)
+2025-11-20 23:42:50,695 - INFO -     Barangay 112401014: 15 prospects
+2025-11-20 23:42:50,784 - INFO -   Mabunga (112401014): 15 stores available (total: 15)
+2025-11-20 23:42:51,852 - INFO -     Barangay 112509018: 34 prospects
+2025-11-20 23:42:51,943 - INFO -   Macambol (112509018): 34 stores available (total: 34)
+2025-11-20 23:42:53,240 - INFO -     Barangay 112507016: 13 prospects
+2025-11-20 23:42:53,321 - INFO -   Macangao (112507016): 13 stores available (total: 13)
+2025-11-20 23:42:53,865 - INFO -     Barangay 112314007: 7 prospects
+2025-11-20 23:42:53,948 - INFO -   Macgum (112314007): 7 stores available (total: 7)
+2025-11-20 23:42:54,484 - INFO -     Barangay 118207008: 9 prospects
+2025-11-20 23:42:54,559 - INFO -   Macopa (118207008): 9 stores available (total: 9)
+2025-11-20 23:42:55,187 - INFO -     Barangay 112319009: 33 prospects
+2025-11-20 23:42:55,275 - INFO -   Madaum (112319009): 33 stores available (total: 33)
+2025-11-20 23:42:55,900 - INFO -     Barangay 112511007: 9 prospects
+2025-11-20 23:42:55,988 - INFO -   Maganda (112511007): 9 stores available (total: 9)
+2025-11-20 23:42:57,589 - INFO -     Barangay 112301026: 99 prospects
+2025-11-20 23:42:57,674 - INFO -   Magatos (112301026): 99 stores available (total: 99)
+2025-11-20 23:42:58,448 - INFO -     Barangay 112506006: 4 prospects
+2025-11-20 23:42:58,542 - INFO -   Magdug (112506006): 4 stores available (total: 4)
+2025-11-20 23:42:59,101 - INFO -     Barangay 112505009: 5 prospects
+2025-11-20 23:42:59,180 - INFO -   Maglahus (112505009): 5 stores available (total: 5)
+2025-11-20 23:42:59,694 - INFO -     Barangay 118211005: 27 prospects
+2025-11-20 23:42:59,782 - INFO -   Magnaga (118211005): 27 stores available (total: 27)
+2025-11-20 23:43:01,701 - INFO -     Barangay 112402188: 78 prospects
+2025-11-20 23:43:01,787 - INFO -   Magsaysay (112402188): 78 stores available (total: 78)
+2025-11-20 23:43:02,554 - INFO -     Barangay 112507017: 19 prospects
+2025-11-20 23:43:02,655 - INFO -   Magsaysay (112507017): 19 stores available (total: 19)
+2025-11-20 23:43:03,191 - INFO -     Barangay 118209010: 1 prospects
+2025-11-20 23:43:03,275 - INFO -   Magsaysay (118209010): 1 stores available (total: 1)
+2025-11-20 23:43:04,139 - INFO -     Barangay 118210007: 9 prospects
+2025-11-20 23:43:04,208 - INFO -   Magsaysay (118210007): 9 stores available (total: 9)
+2025-11-20 23:43:04,732 - INFO -     Barangay 112402063: 24 prospects
+2025-11-20 23:43:04,838 - INFO -   Magtuod (112402063): 24 stores available (total: 24)
+2025-11-20 23:43:06,701 - INFO -     Barangay 112319023: 89 prospects
+2025-11-20 23:43:06,783 - INFO -   Magugpo East (112319023): 89 stores available (total: 89)
+2025-11-20 23:43:07,516 - INFO -     Barangay 112319024: 3 prospects
+2025-11-20 23:43:07,600 - INFO -   Magugpo North (112319024): 3 stores available (total: 3)
+2025-11-20 23:43:08,131 - INFO -     Barangay 112323003: 17 prospects
+2025-11-20 23:43:08,222 - INFO -   Magupising (112323003): 17 stores available (total: 17)
+2025-11-20 23:43:08,748 - INFO -     Barangay 112501012: 9 prospects
+2025-11-20 23:43:08,833 - INFO -   Mahanub (112501012): 9 stores available (total: 9)
+2025-11-20 23:43:09,414 - INFO -     Barangay 112502006: 24 prospects
+2025-11-20 23:43:09,508 - INFO -   Mahayag (112502006): 24 stores available (total: 24)
+2025-11-20 23:43:11,315 - INFO -     Barangay 112402064: 195 prospects
+2025-11-20 23:43:11,401 - INFO -   Mahayag (112402064): 195 stores available (total: 195)
+2025-11-20 23:43:11,924 - INFO -     Barangay 112507019: 1 prospects
+2025-11-20 23:43:11,999 - INFO -   Mahayahay (112507019): 1 stores available (total: 1)
+2025-11-20 23:43:12,666 - INFO -     Barangay 112403013: 45 prospects
+2025-11-20 23:43:12,770 - INFO -   Mahayahay (112403013): 45 stores available (total: 45)
+2025-11-20 23:43:13,352 - INFO -     Barangay 112407021: 2 prospects
+2025-11-20 23:43:13,439 - INFO -   Maibo (112407021): 2 stores available (total: 2)
+2025-11-20 23:43:13,953 - INFO -     Barangay 112505010: 1 prospects
+2025-11-20 23:43:14,039 - INFO -   Mainit (112505010): 1 stores available (total: 1)
+2025-11-20 23:43:15,296 - INFO -     Barangay 112402065: 15 prospects
+2025-11-20 23:43:15,374 - INFO -   Malabog (112402065): 15 stores available (total: 15)
+2025-11-20 23:43:16,125 - INFO -     Barangay 112402066: 116 prospects
+2025-11-20 23:43:16,242 - INFO -   Malagos (112402066): 116 stores available (total: 116)
+2025-11-20 23:43:16,766 - INFO -     Barangay 112407012: 1 prospects
+2025-11-20 23:43:16,851 - INFO -   Malawanit (112407012): 1 stores available (total: 1)
+2025-11-20 23:43:17,361 - INFO -     Barangay 118202032: 1 prospects
+2025-11-20 23:43:17,447 - INFO -   Malinao (118202032): 1 stores available (total: 1)
+2025-11-20 23:43:17,962 - INFO -     Barangay 112407013: 34 prospects
+2025-11-20 23:43:18,050 - INFO -   Malongon (112407013): 34 stores available (total: 34)
+2025-11-20 23:43:18,892 - INFO -     Barangay 112305015: 53 prospects
+2025-11-20 23:43:18,973 - INFO -   Mamacao (112305015): 53 stores available (total: 53)
+2025-11-20 23:43:20,373 - INFO -     Barangay 112317023: 4 prospects
+2025-11-20 23:43:20,456 - INFO -   Mambago-A (112317023): 4 stores available (total: 4)
+2025-11-20 23:43:20,976 - INFO -     Barangay 112317024: 14 prospects
+2025-11-20 23:43:21,063 - INFO -   Mambago-B (112317024): 14 stores available (total: 14)
+2025-11-20 23:43:21,574 - INFO -     Barangay 112314008: 3 prospects
+2025-11-20 23:43:21,661 - INFO -   Mambing (112314008): 3 stores available (total: 3)
+2025-11-20 23:43:22,521 - INFO -     Barangay 112401015: 47 prospects
+2025-11-20 23:43:22,589 - INFO -   Managa (112401015): 47 stores available (total: 47)
+2025-11-20 23:43:23,182 - INFO -     Barangay 112402068: 29 prospects
+2025-11-20 23:43:23,257 - INFO -   Manambulan (112402068): 29 stores available (total: 29)
+2025-11-20 23:43:24,976 - INFO -     Barangay 112402069: 4 prospects
+2025-11-20 23:43:25,061 - INFO -   Mandug (112402069): 4 stores available (total: 4)
+2025-11-20 23:43:25,904 - INFO -     Barangay 112303014: 31 prospects
+2025-11-20 23:43:25,979 - INFO -   Mangalcal (112303014): 31 stores available (total: 31)
+2025-11-20 23:43:26,501 - INFO -     Barangay 118201004: 45 prospects
+2025-11-20 23:43:26,569 - INFO -   Mangayon (118201004): 45 stores available (total: 45)
+2025-11-20 23:43:27,082 - INFO -     Barangay 112305021: 22 prospects
+2025-11-20 23:43:27,162 - INFO -   Maniki (Poblacion) (112305021): 22 stores available (total: 22)
+2025-11-20 23:43:27,883 - INFO -     Barangay 112510010: 8 prospects
+2025-11-20 23:43:27,967 - INFO -   Manikling (112510010): 8 stores available (total: 8)
+2025-11-20 23:43:29,588 - INFO -     Barangay 112319011: 321 prospects
+2025-11-20 23:43:29,670 - INFO -   Mankilam (112319011): 321 stores available (total: 321)
+2025-11-20 23:43:30,175 - INFO -     Barangay 112504006: 2 prospects
+2025-11-20 23:43:30,280 - INFO -   Manorigao (112504006): 2 stores available (total: 2)
+2025-11-20 23:43:30,840 - INFO -     Barangay 112508010: 7 prospects
+2025-11-20 23:43:30,921 - INFO -   Manreza (112508010): 7 stores available (total: 7)
+2025-11-20 23:43:31,435 - INFO -     Barangay 112506002: 14 prospects
+2025-11-20 23:43:31,518 - INFO -   Manuel Roxas (112506002): 14 stores available (total: 14)
+2025-11-20 23:43:32,079 - INFO -     Barangay 118201006: 2 prospects
+2025-11-20 23:43:32,168 - INFO -   Maparat (118201006): 2 stores available (total: 2)
+2025-11-20 23:43:33,938 - INFO -     Barangay 118205002: 1 prospects
+2025-11-20 23:43:34,028 - INFO -   Mapawa (118205002): 1 stores available (total: 1)
+2025-11-20 23:43:34,554 - INFO -     Barangay 112502007: 13 prospects
+2025-11-20 23:43:34,676 - INFO -   Maputi (112502007): 13 stores available (total: 13)
+2025-11-20 23:43:35,216 - INFO -     Barangay 112507021: 24 prospects
+2025-11-20 23:43:35,300 - INFO -   Maragatas (112507021): 24 stores available (total: 24)
+2025-11-20 23:43:35,806 - INFO -     Barangay 112402072: 3 prospects
+2025-11-20 23:43:35,886 - INFO -   Marapangi (112402072): 3 stores available (total: 3)
+2025-11-20 23:43:36,558 - INFO -     Barangay 112507022: 11 prospects
+2025-11-20 23:43:36,666 - INFO -   Marayag (112507022): 11 stores available (total: 11)
+2025-11-20 23:43:37,760 - INFO -     Barangay 112401016: 2 prospects
+2025-11-20 23:43:37,842 - INFO -   Marber (112401016): 2 stores available (total: 2)
+2025-11-20 23:43:38,455 - INFO -     Barangay 112402073: 55 prospects
+2025-11-20 23:43:38,534 - INFO -   Marilog (112402073): 55 stores available (total: 55)
+2025-11-20 23:43:39,041 - INFO -     Barangay 112509020: 5 prospects
+2025-11-20 23:43:39,126 - INFO -   Matiao (112509020): 5 stores available (total: 5)
+2025-11-20 23:43:39,892 - INFO -     Barangay 112402074: 262 prospects
+2025-11-20 23:43:40,017 - INFO -   Matina Aplaya (112402074): 262 stores available (total: 262)
+2025-11-20 23:43:40,798 - INFO -     Barangay 112402078: 28 prospects
+2025-11-20 23:43:40,893 - INFO -   Matina Biao (112402078): 28 stores available (total: 28)
+2025-11-20 23:43:43,148 - INFO -     Barangay 112402075: 162 prospects
+2025-11-20 23:43:43,238 - INFO -   Matina Crossing (112402075): 162 stores available (total: 162)
+2025-11-20 23:43:46,712 - INFO -     Barangay 112402077: 123 prospects
+2025-11-20 23:43:46,781 - INFO -   Matina Pangi (112402077): 123 stores available (total: 123)
+2025-11-20 23:43:50,756 - INFO -     Barangay 112403014: 3 prospects
+2025-11-20 23:43:50,853 - INFO -   Matti (112403014): 3 stores available (total: 3)
+2025-11-20 23:43:51,549 - INFO -     Barangay 112412009: 14 prospects
+2025-11-20 23:43:51,659 - INFO -   Matutungan (112412009): 14 stores available (total: 14)
+2025-11-20 23:43:52,195 - INFO -     Barangay 112509021: 12 prospects
+2025-11-20 23:43:52,294 - INFO -   Mayo (112509021): 12 stores available (total: 12)
+2025-11-20 23:43:52,878 - INFO -     Barangay 112402189: 10 prospects
+2025-11-20 23:43:52,962 - INFO -   Megkawayan (112402189): 10 stores available (total: 10)
+2025-11-20 23:43:54,574 - INFO -     Barangay 118202034: 2 prospects
+2025-11-20 23:43:54,658 - INFO -   Melale (118202034): 2 stores available (total: 2)
+2025-11-20 23:43:55,167 - INFO -     Barangay 112412010: 5 prospects
+2025-11-20 23:43:55,256 - INFO -   Melilia (112412010): 5 stores available (total: 5)
+2025-11-20 23:43:55,775 - INFO -     Barangay 112504007: 13 prospects
+2025-11-20 23:43:55,867 - INFO -   Mercedes (112504007): 13 stores available (total: 13)
+2025-11-20 23:43:56,489 - INFO -     Barangay 112314009: 43 prospects
+2025-11-20 23:43:56,594 - INFO -   Mesaoy (112314009): 43 stores available (total: 43)
+2025-11-20 23:43:57,680 - INFO -     Barangay 112303015: 3 prospects
+2025-11-20 23:43:57,770 - INFO -   Minda (112303015): 3 stores available (total: 3)
+2025-11-20 23:43:58,581 - INFO -     Barangay 112402079: 208 prospects
+2025-11-20 23:43:58,676 - INFO -   Mintal (112402079): 208 stores available (total: 208)
+2025-11-20 23:43:59,181 - INFO -     Barangay 112317025: 10 prospects
+2025-11-20 23:43:59,309 - INFO -   Miranda (Pob.) (112317025): 10 stores available (total: 10)
+2025-11-20 23:43:59,851 - INFO -     Barangay 112502008: 17 prospects
+2025-11-20 23:43:59,934 - INFO -   Mogbongcogon (112502008): 17 stores available (total: 17)
+2025-11-20 23:44:00,436 - INFO -     Barangay 112406019: 1 prospects
+2025-11-20 23:44:00,533 - INFO -   Molopolo (112406019): 1 stores available (total: 1)
+2025-11-20 23:44:02,659 - INFO -     Barangay 112317026: 28 prospects
+2025-11-20 23:44:02,731 - INFO -   Moncado (Pob.) (112317026): 28 stores available (total: 28)
+2025-11-20 23:44:04,043 - INFO -     Barangay 112506007: 1 prospects
+2025-11-20 23:44:04,122 - INFO -   Monserrat (112506007): 1 stores available (total: 1)
+2025-11-20 23:44:04,688 - INFO -     Barangay 118207022: 2 prospects
+2025-11-20 23:44:04,758 - INFO -   Mount Diwata (118207022): 2 stores available (total: 2)
+2025-11-20 23:44:05,289 - INFO -     Barangay 112402080: 51 prospects
+2025-11-20 23:44:05,371 - INFO -   Mudiang (112402080): 51 stores available (total: 51)
+2025-11-20 23:44:05,901 - INFO -     Barangay 118207010: 2 prospects
+2025-11-20 23:44:06,002 - INFO -   Naboc (118207010): 2 stores available (total: 2)
+2025-11-20 23:44:06,507 - INFO -     Barangay 118202013: 4 prospects
+2025-11-20 23:44:06,599 - INFO -   Naga (118202013): 4 stores available (total: 4)
+2025-11-20 23:44:08,139 - INFO -     Barangay 112506008: 49 prospects
+2025-11-20 23:44:08,251 - INFO -   Nangan (112506008): 49 stores available (total: 49)
+2025-11-20 23:44:08,752 - INFO -     Barangay 112301028: 27 prospects
+2025-11-20 23:44:08,899 - INFO -   Napungas (112301028): 27 stores available (total: 27)
+2025-11-20 23:44:09,404 - INFO -     Barangay 118204023: 4 prospects
+2025-11-20 23:44:09,485 - INFO -   New Asturias (118204023): 4 stores available (total: 4)
+2025-11-20 23:44:09,983 - INFO -     Barangay 112408014: 10 prospects
+2025-11-20 23:44:10,063 - INFO -   New Baclayon (112408014): 10 stores available (total: 10)
+2025-11-20 23:44:10,564 - INFO -     Barangay 112301029: 33 prospects
+2025-11-20 23:44:10,639 - INFO -   New Bantayan (112301029): 33 stores available (total: 33)
+2025-11-20 23:44:11,746 - INFO -     Barangay 112314010: 21 prospects
+2025-11-20 23:44:11,827 - INFO -   New Bohol (112314010): 21 stores available (total: 21)
+2025-11-20 23:44:12,592 - INFO -     Barangay 118208014: 7 prospects
+2025-11-20 23:44:12,665 - INFO -   New Calape (118208014): 7 stores available (total: 7)
+2025-11-20 23:44:13,166 - INFO -     Barangay 112402082: 27 prospects
+2025-11-20 23:44:13,267 - INFO -   New Carmen (112402082): 27 stores available (total: 27)
+2025-11-20 23:44:13,765 - INFO -     Barangay 112401017: 12 prospects
+2025-11-20 23:44:13,837 - INFO -   New Clarin (Miral) (112401017): 12 stores available (total: 12)
+2025-11-20 23:44:14,337 - INFO -     Barangay 118208015: 3 prospects
+2025-11-20 23:44:14,413 - INFO -   New Dalaguete (118208015): 3 stores available (total: 3)
+2025-11-20 23:44:14,918 - INFO -     Barangay 112407014: 5 prospects
+2025-11-20 23:44:15,026 - INFO -   New Ilocos (112407014): 5 stores available (total: 5)
+2025-11-20 23:44:16,228 - INFO -     Barangay 112410023: 32 prospects
+2025-11-20 23:44:16,304 - INFO -   New Katipunan (112410023): 32 stores available (total: 32)
+2025-11-20 23:44:16,841 - INFO -     Barangay 112301040: 3 prospects
+2025-11-20 23:44:16,928 - INFO -   New Loon (112301040): 3 stores available (total: 3)
+2025-11-20 23:44:17,431 - INFO -     Barangay 112410024: 5 prospects
+2025-11-20 23:44:17,540 - INFO -   New Murcia (112410024): 5 stores available (total: 5)
+2025-11-20 23:44:18,051 - INFO -     Barangay 118205018: 8 prospects
+2025-11-20 23:44:18,129 - INFO -   New Panay (118205018): 8 stores available (total: 8)
+2025-11-20 23:44:18,631 - INFO -     Barangay 112315025: 94 prospects
+2025-11-20 23:44:18,718 - INFO -   New Pandan (Pob.) (112315025): 94 stores available (total: 94)
+2025-11-20 23:44:19,276 - INFO -     Barangay 112314012: 8 prospects
+2025-11-20 23:44:19,355 - INFO -   New Sambog (112314012): 8 stores available (total: 8)
+2025-11-20 23:44:20,592 - INFO -     Barangay 112301030: 48 prospects
+2025-11-20 23:44:20,674 - INFO -   New Santiago (112301030): 48 stores available (total: 48)
+2025-11-20 23:44:21,201 - INFO -     Barangay 112315026: 83 prospects
+2025-11-20 23:44:21,281 - INFO -   New Visayas (112315026): 83 stores available (total: 83)
+2025-11-20 23:44:21,775 - INFO -     Barangay 118204034: 24 prospects
+2025-11-20 23:44:21,873 - INFO -   New Visayas (118204034): 24 stores available (total: 24)
+2025-11-20 23:44:22,415 - INFO -     Barangay 112410025: 2 prospects
+2025-11-20 23:44:22,499 - INFO -   New Visayas (112410025): 2 stores available (total: 2)
+2025-11-20 23:44:22,998 - INFO -     Barangay 118201008: 49 prospects
+2025-11-20 23:44:23,083 - INFO -   Ngan (118201008): 49 stores available (total: 49)
+2025-11-20 23:44:23,591 - INFO -     Barangay 118207011: 23 prospects
+2025-11-20 23:44:23,680 - INFO -   Olaycon (118207011): 23 stores available (total: 23)
+2025-11-20 23:44:24,855 - INFO -     Barangay 112506009: 10 prospects
+2025-11-20 23:44:24,950 - INFO -   Oregon (112506009): 10 stores available (total: 10)
+2025-11-20 23:44:25,457 - INFO -     Barangay 118201009: 59 prospects
+2025-11-20 23:44:25,540 - INFO -   Osmeña (118201009): 59 stores available (total: 59)
+2025-11-20 23:44:26,042 - INFO -     Barangay 118211003: 44 prospects
+2025-11-20 23:44:26,129 - INFO -   P. Fuentes (118211003): 44 stores available (total: 44)
+2025-11-20 23:44:26,629 - INFO -     Barangay 112305018: 29 prospects
+2025-11-20 23:44:26,777 - INFO -   Pag-asa (112305018): 29 stores available (total: 29)
+2025-11-20 23:44:27,374 - INFO -     Barangay 112319014: 69 prospects
+2025-11-20 23:44:27,558 - INFO -   Pagsabangan (112319014): 69 stores available (total: 69)
+2025-11-20 23:44:28,713 - INFO -     Barangay 112411009: 50 prospects
+2025-11-20 23:44:28,798 - INFO -   Palili (112411009): 50 stores available (total: 50)
+2025-11-20 23:44:29,446 - INFO -     Barangay 112322002: 2 prospects
+2025-11-20 23:44:29,609 - INFO -   Palma Gil (112322002): 2 stores available (total: 2)
+2025-11-20 23:44:30,172 - INFO -     Barangay 112504008: 1 prospects
+2025-11-20 23:44:30,310 - INFO -   Palma Gil (112504008): 1 stores available (total: 1)
+2025-11-20 23:44:30,840 - INFO -     Barangay 112301031: 23 prospects
+2025-11-20 23:44:30,960 - INFO -   Pamacaun (112301031): 23 stores available (total: 23)
+2025-11-20 23:44:31,511 - INFO -     Barangay 118205020: 1 prospects
+2025-11-20 23:44:31,573 - INFO -   Pamintaran (118205020): 1 stores available (total: 1)
+2025-11-20 23:44:32,320 - INFO -     Barangay 112402086: 230 prospects
+2025-11-20 23:44:32,412 - INFO -   Pampanga (112402086): 230 stores available (total: 230)
+2025-11-20 23:44:33,442 - INFO -     Barangay 112402087: 244 prospects
+2025-11-20 23:44:33,528 - INFO -   Panacan (112402087): 244 stores available (total: 244)
+2025-11-20 23:44:34,108 - INFO -     Barangay 118202036: 12 prospects
+2025-11-20 23:44:34,241 - INFO -   Panamoren (118202036): 12 stores available (total: 12)
+2025-11-20 23:44:34,794 - INFO -     Barangay 118201010: 2 prospects
+2025-11-20 23:44:34,906 - INFO -   Panansalan (118201010): 2 stores available (total: 2)
+2025-11-20 23:44:35,515 - INFO -     Barangay 112402089: 21 prospects
+2025-11-20 23:44:35,615 - INFO -   Pandaitan (112402089): 21 stores available (total: 21)
+2025-11-20 23:44:36,195 - INFO -     Barangay 112319015: 5 prospects
+2025-11-20 23:44:36,262 - INFO -   Pandapan (112319015): 5 stores available (total: 5)
+2025-11-20 23:44:38,394 - INFO -     Barangay 118203017: 2 prospects
+2025-11-20 23:44:38,496 - INFO -   Pangibiran (118203017): 2 stores available (total: 2)
+2025-11-20 23:44:39,976 - INFO -     Barangay 112317027: 1 prospects
+2025-11-20 23:44:40,067 - INFO -   Pangubatan (Talicod I) (112317027): 1 stores available (total: 1)
+2025-11-20 23:44:40,634 - INFO -     Barangay 118204024: 46 prospects
+2025-11-20 23:44:40,721 - INFO -   Panibasan (118204024): 46 stores available (total: 46)
+2025-11-20 23:44:41,262 - INFO -     Barangay 118204025: 28 prospects
+2025-11-20 23:44:41,348 - INFO -   Panoraon (118204025): 28 stores available (total: 28)
+2025-11-20 23:44:42,898 - INFO -     Barangay 112314013: 11 prospects
+2025-11-20 23:44:42,988 - INFO -   Patrocenio (112314013): 11 stores available (total: 11)
+2025-11-20 23:44:43,665 - INFO -     Barangay 112317028: 82 prospects
+2025-11-20 23:44:43,755 - INFO -   Peñaplata (Pob.) (112317028): 82 stores available (total: 82)
+2025-11-20 23:44:44,417 - INFO -     Barangay 112504009: 2 prospects
+2025-11-20 23:44:44,527 - INFO -   Pichon (112504009): 2 stores available (total: 2)
+2025-11-20 23:44:45,028 - INFO -     Barangay 118203006: 10 prospects
+2025-11-20 23:44:45,135 - INFO -   Pindasan (118203006): 10 stores available (total: 10)
+2025-11-20 23:44:45,663 - INFO -     Barangay 112502010: 21 prospects
+2025-11-20 23:44:45,807 - INFO -   Pintatagan (112502010): 21 stores available (total: 21)
+2025-11-20 23:44:47,087 - INFO -     Barangay 112502011: 3 prospects
+2025-11-20 23:44:47,211 - INFO -   Piso Proper (112502011): 3 stores available (total: 3)
+2025-11-20 23:44:48,641 - INFO -     Barangay 112408015: 4 prospects
+2025-11-20 23:44:48,746 - INFO -   Pitu (112408015): 4 stores available (total: 4)
+2025-11-20 23:44:49,283 - INFO -     Barangay 112408016: 4 prospects
+2025-11-20 23:44:49,359 - INFO -   Poblacion (112408016): 4 stores available (total: 4)
+2025-11-20 23:44:49,882 - INFO -     Barangay 112506010: 61 prospects
+2025-11-20 23:44:50,005 - INFO -   Poblacion (112506010): 61 stores available (total: 61)
+2025-11-20 23:44:50,601 - INFO -     Barangay 112314014: 37 prospects
+2025-11-20 23:44:50,722 - INFO -   Poblacion (112314014): 37 stores available (total: 37)
+2025-11-20 23:44:51,960 - INFO -     Barangay 112502012: 32 prospects
+2025-11-20 23:44:52,079 - INFO -   Poblacion (112502012): 32 stores available (total: 32)
+2025-11-20 23:44:53,191 - INFO -     Barangay 112407015: 14 prospects
+2025-11-20 23:44:53,269 - INFO -   Poblacion (112407015): 14 stores available (total: 14)
+2025-11-20 23:44:53,865 - INFO -     Barangay 112410026: 10 prospects
+2025-11-20 23:44:53,951 - INFO -   Poblacion (112410026): 10 stores available (total: 10)
+2025-11-20 23:44:54,443 - INFO -     Barangay 118204026: 60 prospects
+2025-11-20 23:44:54,532 - INFO -   Poblacion (118204026): 60 stores available (total: 60)
+2025-11-20 23:44:55,031 - INFO -     Barangay 112401018: 42 prospects
+2025-11-20 23:44:55,116 - INFO -   Poblacion (112401018): 42 stores available (total: 42)
+2025-11-20 23:44:56,007 - INFO -     Barangay 112504010: 67 prospects
+2025-11-20 23:44:56,096 - INFO -   Poblacion (112504010): 67 stores available (total: 67)
+2025-11-20 23:44:56,716 - INFO -     Barangay 112505019: 3 prospects
+2025-11-20 23:44:56,814 - INFO -   Poblacion (112505019): 3 stores available (total: 3)
+2025-11-20 23:44:57,383 - INFO -     Barangay 118207013: 50 prospects
+2025-11-20 23:44:57,477 - INFO -   Poblacion (118207013): 50 stores available (total: 50)
+2025-11-20 23:44:57,982 - INFO -     Barangay 112503004: 16 prospects
+2025-11-20 23:44:58,101 - INFO -   Poblacion (112503004): 16 stores available (total: 16)
+2025-11-20 23:44:58,592 - INFO -     Barangay 118201011: 3 prospects
+2025-11-20 23:44:58,682 - INFO -   Poblacion (118201011): 3 stores available (total: 3)
+2025-11-20 23:44:59,751 - INFO -     Barangay 112507028: 111 prospects
+2025-11-20 23:44:59,860 - INFO -   Poblacion (112507028): 111 stores available (total: 111)
+2025-11-20 23:45:00,422 - INFO -     Barangay 118209019: 24 prospects
+2025-11-20 23:45:00,508 - INFO -   Poblacion (118209019): 24 stores available (total: 24)
+2025-11-20 23:45:01,006 - INFO -     Barangay 112317029: 1 prospects
+2025-11-20 23:45:01,093 - INFO -   Poblacion (Kaputian) (112317029): 1 stores available (total: 1)
+2025-11-20 23:45:01,609 - INFO -     Barangay 112401025: 8 prospects
+2025-11-20 23:45:01,697 - INFO -   Poblacion Dos (112401025): 8 stores available (total: 8)
+2025-11-20 23:45:02,186 - INFO -     Barangay 112406024: 6 prospects
+2025-11-20 23:45:02,274 - INFO -   Pocaleel (112406024): 6 stores available (total: 6)
+2025-11-20 23:45:03,008 - INFO -     Barangay 118208019: 22 prospects
+2025-11-20 23:45:03,095 - INFO -   Prosperidad (118208019): 22 stores available (total: 22)
+2025-11-20 23:45:03,830 - INFO -     Barangay 112506011: 1 prospects
+2025-11-20 23:45:03,922 - INFO -   Pundaguitan (112506011): 1 stores available (total: 1)
+2025-11-20 23:45:04,412 - INFO -     Barangay 112315027: 30 prospects
+2025-11-20 23:45:04,504 - INFO -   Quezon (112315027): 30 stores available (total: 30)
+2025-11-20 23:45:05,003 - INFO -     Barangay 112411012: 2 prospects
+2025-11-20 23:45:05,119 - INFO -   Quirino District (Pob.) (112411012): 2 stores available (total: 2)
+2025-11-20 23:45:05,676 - INFO -     Barangay 112402190: 3 prospects
+2025-11-20 23:45:05,795 - INFO -   Rafael Castillo (112402190): 3 stores available (total: 3)
+2025-11-20 23:45:06,329 - INFO -     Barangay 112502014: 11 prospects
+2025-11-20 23:45:06,447 - INFO -   Rang-ay (112502014): 11 stores available (total: 11)
+2025-11-20 23:45:07,423 - INFO -     Barangay 112401019: 5 prospects
+2025-11-20 23:45:07,561 - INFO -   Rizal (112401019): 5 stores available (total: 5)
+2025-11-20 23:45:08,078 - INFO -     Barangay 112408020: 55 prospects
+2025-11-20 23:45:08,200 - INFO -   Rizal (Parame) (112408020): 55 stores available (total: 55)
+2025-11-20 23:45:08,743 - INFO -     Barangay 112414020: 1 prospects
+2025-11-20 23:45:08,861 - INFO -   Roxas (112414020): 1 stores available (total: 1)
+2025-11-20 23:45:09,360 - INFO -     Barangay 112403020: 30 prospects
+2025-11-20 23:45:09,463 - INFO -   Ruparan (112403020): 30 stores available (total: 30)
+2025-11-20 23:45:10,057 - INFO -     Barangay 112404022: 1 prospects
+2025-11-20 23:45:10,170 - INFO -   Sacub (112404022): 1 stores available (total: 1)
+2025-11-20 23:45:11,075 - INFO -     Barangay 112301034: 23 prospects
+2025-11-20 23:45:11,176 - INFO -   Sagayen (112301034): 23 stores available (total: 23)
+2025-11-20 23:45:11,677 - INFO -     Barangay 112509022: 16 prospects
+2025-11-20 23:45:11,799 - INFO -   Sainz (112509022): 16 stores available (total: 16)
+2025-11-20 23:45:12,488 - INFO -     Barangay 112402099: 20 prospects
+2025-11-20 23:45:12,583 - INFO -   Salaysay (112402099): 20 stores available (total: 20)
+2025-11-20 23:45:13,213 - INFO -     Barangay 112402191: 6 prospects
+2025-11-20 23:45:13,400 - INFO -   Saloy (112402191): 6 stores available (total: 6)
+2025-11-20 23:45:14,291 - INFO -     Barangay 118207015: 6 prospects
+2025-11-20 23:45:14,385 - INFO -   Salvacion (118207015): 6 stores available (total: 6)
+2025-11-20 23:45:14,887 - INFO -     Barangay 112315028: 139 prospects
+2025-11-20 23:45:15,000 - INFO -   Salvacion (112315028): 139 stores available (total: 139)
+2025-11-20 23:45:15,680 - INFO -     Barangay 112403021: 1 prospects
+2025-11-20 23:45:15,778 - INFO -   San Agustin (112403021): 1 stores available (total: 1)
+2025-11-20 23:45:16,353 - INFO -     Barangay 112317030: 2 prospects
+2025-11-20 23:45:16,445 - INFO -   San Agustin (112317030): 2 stores available (total: 2)
+2025-11-20 23:45:17,097 - INFO -     Barangay 112319018: 2 prospects
+2025-11-20 23:45:17,199 - INFO -   San Agustin (112319018): 2 stores available (total: 2)
+2025-11-20 23:45:18,274 - INFO -     Barangay 112505012: 4 prospects
+2025-11-20 23:45:18,387 - INFO -   San Alfonso (112505012): 4 stores available (total: 4)
+2025-11-20 23:45:19,048 - INFO -     Barangay 112402192: 118 prospects
+2025-11-20 23:45:19,157 - INFO -   San Antonio (112402192): 118 stores available (total: 118)
+2025-11-20 23:45:19,913 - INFO -     Barangay 112504011: 23 prospects
+2025-11-20 23:45:20,049 - INFO -   San Antonio (112504011): 23 stores available (total: 23)
+2025-11-20 23:45:20,758 - INFO -     Barangay 112505013: 41 prospects
+2025-11-20 23:45:20,890 - INFO -   San Antonio (112505013): 41 stores available (total: 41)
+2025-11-20 23:45:21,622 - INFO -     Barangay 112317031: 27 prospects
+2025-11-20 23:45:21,716 - INFO -   San Antonio (112317031): 27 stores available (total: 27)
+2025-11-20 23:45:22,428 - INFO -     Barangay 118203018: 18 prospects
+2025-11-20 23:45:22,559 - INFO -   San Antonio (118203018): 18 stores available (total: 18)
+2025-11-20 23:45:24,334 - INFO -     Barangay 112508013: 2 prospects
+2025-11-20 23:45:24,477 - INFO -   San Fermin (112508013): 2 stores available (total: 2)
+2025-11-20 23:45:25,451 - INFO -     Barangay 112315029: 17 prospects
+2025-11-20 23:45:25,576 - INFO -   San Francisco (Pob.) (112315029): 17 stores available (total: 17)
+2025-11-20 23:45:26,075 - INFO -     Barangay 112508014: 6 prospects
+2025-11-20 23:45:26,182 - INFO -   San Ignacio (112508014): 6 stores available (total: 6)
+2025-11-20 23:45:26,778 - INFO -     Barangay 118207016: 4 prospects
+2025-11-20 23:45:26,884 - INFO -   San Isidro (118207016): 4 stores available (total: 4)
+2025-11-20 23:45:27,416 - INFO -     Barangay 112319019: 9 prospects
+2025-11-20 23:45:27,512 - INFO -   San Isidro (112319019): 9 stores available (total: 9)
+2025-11-20 23:45:28,845 - INFO -     Barangay 112407016: 4 prospects
+2025-11-20 23:45:28,937 - INFO -   San Isidro (112407016): 4 stores available (total: 4)
+2025-11-20 23:45:29,450 - INFO -     Barangay 112303018: 14 prospects
+2025-11-20 23:45:29,624 - INFO -   San Isidro (112303018): 14 stores available (total: 14)
+2025-11-20 23:45:30,126 - INFO -     Barangay 112408021: 44 prospects
+2025-11-20 23:45:30,249 - INFO -   San Isidro (112408021): 44 stores available (total: 44)
+2025-11-20 23:45:30,810 - INFO -     Barangay 112404024: 7 prospects
+2025-11-20 23:45:30,868 - INFO -   San Isidro (112404024): 7 stores available (total: 7)
+2025-11-20 23:45:31,422 - INFO -     Barangay 112406025: 5 prospects
+2025-11-20 23:45:31,555 - INFO -   San Isidro (112406025): 5 stores available (total: 5)
+2025-11-20 23:45:32,607 - INFO -     Barangay 112501015: 33 prospects
+2025-11-20 23:45:32,667 - INFO -   San Isidro (112501015): 33 stores available (total: 33)
+2025-11-20 23:45:33,162 - INFO -     Barangay 112317032: 33 prospects
+2025-11-20 23:45:33,242 - INFO -   San Isidro (Babak) (112317032): 33 stores available (total: 33)
+2025-11-20 23:45:33,817 - INFO -     Barangay 112317033: 14 prospects
+2025-11-20 23:45:33,891 - INFO -   San Isidro (Kaputian) (112317033): 14 stores available (total: 14)
+2025-11-20 23:45:34,566 - INFO -     Barangay 112402100: 105 prospects
+2025-11-20 23:45:34,683 - INFO -   San Isidro (Licanan) (112402100): 105 stores available (total: 105)
+2025-11-20 23:45:35,203 - INFO -     Barangay 112410028: 6 prospects
+2025-11-20 23:45:35,277 - INFO -   San Jose (112410028): 6 stores available (total: 6)
+2025-11-20 23:45:36,143 - INFO -     Barangay 112504012: 4 prospects
+2025-11-20 23:45:36,209 - INFO -   San Jose (112504012): 4 stores available (total: 4)
+2025-11-20 23:45:36,706 - INFO -     Barangay 112314020: 1 prospects
+2025-11-20 23:45:36,791 - INFO -   San Jose (112314020): 1 stores available (total: 1)
+2025-11-20 23:45:38,374 - INFO -     Barangay 112503005: 11 prospects
+2025-11-20 23:45:38,452 - INFO -   San Jose (112503005): 11 stores available (total: 11)
+2025-11-20 23:45:39,030 - INFO -     Barangay 118201012: 1 prospects
+2025-11-20 23:45:39,104 - INFO -   San Jose (118201012): 1 stores available (total: 1)
+2025-11-20 23:45:39,845 - INFO -     Barangay 118208020: 3 prospects
+2025-11-20 23:45:39,923 - INFO -   San Jose (Pob.) (118208020): 3 stores available (total: 3)
+2025-11-20 23:45:40,466 - INFO -     Barangay 118204027: 56 prospects
+2025-11-20 23:45:40,545 - INFO -   San Juan (118204027): 56 stores available (total: 56)
+2025-11-20 23:45:41,038 - INFO -     Barangay 112504013: 79 prospects
+2025-11-20 23:45:41,106 - INFO -   San Luis (112504013): 79 stores available (total: 79)
+2025-11-20 23:45:41,619 - INFO -     Barangay 112505014: 18 prospects
+2025-11-20 23:45:41,689 - INFO -   San Miguel (112505014): 18 stores available (total: 18)
+2025-11-20 23:45:42,384 - INFO -     Barangay 112510013: 4 prospects
+2025-11-20 23:45:42,469 - INFO -   San Miguel (112510013): 4 stores available (total: 4)
+2025-11-20 23:45:43,573 - INFO -     Barangay 112410029: 12 prospects
+2025-11-20 23:45:43,636 - INFO -   San Miguel (112410029): 12 stores available (total: 12)
+2025-11-20 23:45:44,134 - INFO -     Barangay 118201013: 30 prospects
+2025-11-20 23:45:44,215 - INFO -   San Miguel (118201013): 30 stores available (total: 30)
+2025-11-20 23:45:44,715 - INFO -     Barangay 112504014: 2 prospects
+2025-11-20 23:45:44,798 - INFO -   San Miguel (112504014): 2 stores available (total: 2)
+2025-11-20 23:45:45,310 - INFO -     Barangay 112319020: 43 prospects
+2025-11-20 23:45:45,388 - INFO -   San Miguel (Camp 4) (112319020): 43 stores available (total: 43)
+2025-11-20 23:45:46,116 - INFO -     Barangay 112317035: 17 prospects
+2025-11-20 23:45:46,193 - INFO -   San Miguel (Magamono) (112317035): 17 stores available (total: 17)
+2025-11-20 23:45:47,185 - INFO -     Barangay 112403022: 22 prospects
+2025-11-20 23:45:47,268 - INFO -   San Miguel (Odaca) (112403022): 22 stores available (total: 22)
+2025-11-20 23:45:47,809 - INFO -     Barangay 112406027: 5 prospects
+2025-11-20 23:45:47,925 - INFO -   San Pedro (112406027): 5 stores available (total: 5)
+2025-11-20 23:45:48,472 - INFO -     Barangay 112315041: 92 prospects
+2025-11-20 23:45:48,548 - INFO -   San Pedro (112315041): 92 stores available (total: 92)
+2025-11-20 23:45:49,317 - INFO -     Barangay 112504015: 57 prospects
+2025-11-20 23:45:49,381 - INFO -   San Pedro (112504015): 57 stores available (total: 57)
+2025-11-20 23:45:49,950 - INFO -     Barangay 112505015: 31 prospects
+2025-11-20 23:45:50,020 - INFO -   San Rafael (112505015): 31 stores available (total: 31)
+2025-11-20 23:45:50,691 - INFO -     Barangay 112317036: 41 prospects
+2025-11-20 23:45:50,765 - INFO -   San Remigio (112317036): 41 stores available (total: 41)
+2025-11-20 23:45:51,298 - INFO -     Barangay 118204028: 1 prospects
+2025-11-20 23:45:51,373 - INFO -   San Roque (118204028): 1 stores available (total: 1)
+2025-11-20 23:45:51,911 - INFO -     Barangay 112314015: 18 prospects
+2025-11-20 23:45:51,986 - INFO -   San Roque (112314015): 18 stores available (total: 18)
+2025-11-20 23:45:52,875 - INFO -     Barangay 112510014: 7 prospects
+2025-11-20 23:45:52,937 - INFO -   San Roque (112510014): 7 stores available (total: 7)
+2025-11-20 23:45:53,711 - INFO -     Barangay 112410030: 8 prospects
+2025-11-20 23:45:53,799 - INFO -   San Vicente (112410030): 8 stores available (total: 8)
+2025-11-20 23:45:54,322 - INFO -     Barangay 112301036: 7 prospects
+2025-11-20 23:45:54,381 - INFO -   San Vicente (112301036): 7 stores available (total: 7)
+2025-11-20 23:45:54,889 - INFO -     Barangay 112315032: 121 prospects
+2025-11-20 23:45:54,964 - INFO -   San Vicente (112315032): 121 stores available (total: 121)
+2025-11-20 23:45:55,477 - INFO -     Barangay 112502013: 13 prospects
+2025-11-20 23:45:55,551 - INFO -   San Vicente (112502013): 13 stores available (total: 13)
+2025-11-20 23:45:56,493 - INFO -     Barangay 118209022: 3 prospects
+2025-11-20 23:45:56,569 - INFO -   San Vicente (118209022): 3 stores available (total: 3)
+2025-11-20 23:45:57,397 - INFO -     Barangay 112501016: 2 prospects
+2025-11-20 23:45:57,477 - INFO -   San Victor (112501016): 2 stores available (total: 2)
+2025-11-20 23:45:58,014 - INFO -     Barangay 112509023: 2 prospects
+2025-11-20 23:45:58,103 - INFO -   Sanghay (112509023): 2 stores available (total: 2)
+2025-11-20 23:45:58,633 - INFO -     Barangay 112314016: 5 prospects
+2025-11-20 23:45:58,717 - INFO -   Santa Cruz (112314016): 5 stores available (total: 5)
+2025-11-20 23:45:59,548 - INFO -     Barangay 112317037: 12 prospects
+2025-11-20 23:45:59,625 - INFO -   Santa Cruz (Talicod II) (112317037): 12 stores available (total: 12)
+2025-11-20 23:46:00,127 - INFO -     Barangay 118202038: 1 prospects
+2025-11-20 23:46:00,204 - INFO -   Santa Emilia (118202038): 1 stores available (total: 1)
+2025-11-20 23:46:00,968 - INFO -     Barangay 112314017: 13 prospects
+2025-11-20 23:46:01,036 - INFO -   Santa Fe (112314017): 13 stores available (total: 13)
+2025-11-20 23:46:01,557 - INFO -     Barangay 112504016: 1 prospects
+2025-11-20 23:46:01,630 - INFO -   Santa Fe (112504016): 1 stores available (total: 1)
+2025-11-20 23:46:02,132 - INFO -     Barangay 112504017: 3 prospects
+2025-11-20 23:46:02,207 - INFO -   Santiago (112504017): 3 stores available (total: 3)
+2025-11-20 23:46:02,993 - INFO -     Barangay 112303019: 32 prospects
+2025-11-20 23:46:03,068 - INFO -   Santo Niño (112303019): 32 stores available (total: 32)
+2025-11-20 23:46:03,596 - INFO -     Barangay 112314018: 5 prospects
+2025-11-20 23:46:03,672 - INFO -   Santo Niño (112314018): 5 stores available (total: 5)
+2025-11-20 23:46:04,651 - INFO -     Barangay 112322003: 9 prospects
+2025-11-20 23:46:04,737 - INFO -   Santo Niño (112322003): 9 stores available (total: 9)
+2025-11-20 23:46:05,236 - INFO -     Barangay 112317038: 32 prospects
+2025-11-20 23:46:05,309 - INFO -   Santo Niño (112317038): 32 stores available (total: 32)
+2025-11-20 23:46:05,810 - INFO -     Barangay 112402193: 12 prospects
+2025-11-20 23:46:05,889 - INFO -   Santo Niño (112402193): 12 stores available (total: 12)
+2025-11-20 23:46:06,917 - INFO -     Barangay 112401020: 7 prospects
+2025-11-20 23:46:06,981 - INFO -   Santo Niño (112401020): 7 stores available (total: 7)
+2025-11-20 23:46:07,842 - INFO -     Barangay 112315034: 11 prospects
+2025-11-20 23:46:07,914 - INFO -   Santo Niño (Pob.) (112315034): 11 stores available (total: 11)
+2025-11-20 23:46:08,412 - INFO -     Barangay 112510015: 2 prospects
+2025-11-20 23:46:08,531 - INFO -   Santo Rosario (112510015): 2 stores available (total: 2)
+2025-11-20 23:46:09,043 - INFO -     Barangay 112402101: 268 prospects
+2025-11-20 23:46:09,110 - INFO -   Sasa (112402101): 268 stores available (total: 268)
+2025-11-20 23:46:09,610 - INFO -     Barangay 118206010: 6 prospects
+2025-11-20 23:46:09,682 - INFO -   Sawangan (118206010): 6 stores available (total: 6)
+2025-11-20 23:46:10,775 - INFO -     Barangay 112305003: 27 prospects
+2025-11-20 23:46:10,856 - INFO -   Semong (112305003): 27 stores available (total: 27)
+2025-11-20 23:46:11,759 - INFO -     Barangay 112506012: 1 prospects
+2025-11-20 23:46:11,829 - INFO -   Sergio Osmeña (112506012): 1 stores available (total: 1)
+2025-11-20 23:46:12,326 - INFO -     Barangay 112503006: 16 prospects
+2025-11-20 23:46:12,393 - INFO -   Sibajay (112503006): 16 stores available (total: 16)
+2025-11-20 23:46:12,892 - INFO -     Barangay 112401021: 4 prospects
+2025-11-20 23:46:12,972 - INFO -   Sibayan (112401021): 4 stores available (total: 4)
+2025-11-20 23:46:13,593 - INFO -     Barangay 112412014: 25 prospects
+2025-11-20 23:46:13,665 - INFO -   Sibulan (112412014): 25 stores available (total: 25)
+2025-11-20 23:46:14,769 - INFO -     Barangay 112402102: 27 prospects
+2025-11-20 23:46:14,840 - INFO -   Sibulan (112402102): 27 stores available (total: 27)
+2025-11-20 23:46:15,455 - INFO -     Barangay 112410032: 1 prospects
+2025-11-20 23:46:15,535 - INFO -   Sinaragan (112410032): 1 stores available (total: 1)
+2025-11-20 23:46:16,038 - INFO -     Barangay 112403024: 46 prospects
+2025-11-20 23:46:16,112 - INFO -   Sinawilan (112403024): 46 stores available (total: 46)
+2025-11-20 23:46:16,615 - INFO -     Barangay 112410033: 1 prospects
+2025-11-20 23:46:16,674 - INFO -   Sinawilan (112410033): 1 stores available (total: 1)
+2025-11-20 23:46:17,179 - INFO -     Barangay 118201014: 32 prospects
+2025-11-20 23:46:17,240 - INFO -   Siocon (118201014): 32 stores available (total: 32)
+2025-11-20 23:46:18,799 - INFO -     Barangay 112317039: 3 prospects
+2025-11-20 23:46:18,860 - INFO -   Sion (Zion) (112317039): 3 stores available (total: 3)
+2025-11-20 23:46:19,360 - INFO -     Barangay 112402104: 50 prospects
+2025-11-20 23:46:19,444 - INFO -   Sirawan (112402104): 50 stores available (total: 50)
+2025-11-20 23:46:19,961 - INFO -     Barangay 112402105: 10 prospects
+2025-11-20 23:46:20,048 - INFO -   Sirib (112402105): 10 stores available (total: 10)
+2025-11-20 23:46:20,549 - INFO -     Barangay 112403025: 9 prospects
+2025-11-20 23:46:20,624 - INFO -   Soong (112403025): 9 stores available (total: 9)
+2025-11-20 23:46:21,118 - INFO -     Barangay 112315036: 162 prospects
+2025-11-20 23:46:21,193 - INFO -   Southern Davao (112315036): 162 stores available (total: 162)
+2025-11-20 23:46:23,868 - INFO -     Barangay 112411014: 3 prospects
+2025-11-20 23:46:23,945 - INFO -   Southern Paligue (112411014): 3 stores available (total: 3)
+2025-11-20 23:46:24,520 - INFO -     Barangay 112305026: 7 prospects
+2025-11-20 23:46:24,600 - INFO -   Sua-on (112305026): 7 stores available (total: 7)
+2025-11-20 23:46:25,115 - INFO -     Barangay 112314019: 11 prospects
+2025-11-20 23:46:25,187 - INFO -   Suawon (112314019): 11 stores available (total: 11)
+2025-11-20 23:46:25,687 - INFO -     Barangay 112402107: 57 prospects
+2025-11-20 23:46:25,771 - INFO -   Subasta (112402107): 57 stores available (total: 57)
+2025-11-20 23:46:26,287 - INFO -     Barangay 112510016: 10 prospects
+2025-11-20 23:46:26,365 - INFO -   Sudlon (112510016): 10 stores available (total: 10)
+2025-11-20 23:46:26,869 - INFO -     Barangay 112506013: 12 prospects
+2025-11-20 23:46:26,949 - INFO -   Surop (112506013): 12 stores available (total: 12)
+2025-11-20 23:46:28,325 - INFO -     Barangay 112303024: 64 prospects
+2025-11-20 23:46:28,403 - INFO -   Taba (112303024): 64 stores available (total: 64)
+2025-11-20 23:46:28,928 - INFO -     Barangay 112407018: 6 prospects
+2025-11-20 23:46:29,003 - INFO -   Tacul (112407018): 6 stores available (total: 6)
+2025-11-20 23:46:29,502 - INFO -     Barangay 112406030: 14 prospects
+2025-11-20 23:46:29,574 - INFO -   Tacul (112406030): 14 stores available (total: 14)
+2025-11-20 23:46:30,076 - INFO -     Barangay 112402110: 104 prospects
+2025-11-20 23:46:30,151 - INFO -   Tacunan (112402110): 104 stores available (total: 104)
+2025-11-20 23:46:30,651 - INFO -     Barangay 112509024: 56 prospects
+2025-11-20 23:46:30,731 - INFO -   Tagabakid (112509024): 56 stores available (total: 56)
+2025-11-20 23:46:31,362 - INFO -     Barangay 112506014: 21 prospects
+2025-11-20 23:46:31,437 - INFO -   Tagabebe (112506014): 21 stores available (total: 21)
+2025-11-20 23:46:33,079 - INFO -     Barangay 112412016: 24 prospects
+2025-11-20 23:46:33,153 - INFO -   Tagabuli (112412016): 24 stores available (total: 24)
+2025-11-20 23:46:33,665 - INFO -     Barangay 112402112: 30 prospects
+2025-11-20 23:46:33,740 - INFO -   Tagakpan (112402112): 30 stores available (total: 30)
+2025-11-20 23:46:34,345 - INFO -     Barangay 112407019: 3 prospects
+2025-11-20 23:46:34,414 - INFO -   Tagaytay (112407019): 3 stores available (total: 3)
+2025-11-20 23:46:34,914 - INFO -     Barangay 118204036: 11 prospects
+2025-11-20 23:46:34,997 - INFO -   Tagbaros (118204036): 11 stores available (total: 11)
+2025-11-20 23:46:35,513 - INFO -     Barangay 112507032: 5 prospects
+2025-11-20 23:46:35,582 - INFO -   Tagboa (112507032): 5 stores available (total: 5)
+2025-11-20 23:46:36,567 - INFO -     Barangay 118211009: 2 prospects
+2025-11-20 23:46:36,645 - INFO -   Tagdangua (118211009): 2 stores available (total: 2)
+2025-11-20 23:46:37,366 - INFO -     Barangay 118203011: 23 prospects
+2025-11-20 23:46:37,452 - INFO -   Tagnanan (Mampising) (118203011): 23 stores available (total: 23)
+2025-11-20 23:46:37,949 - INFO -     Barangay 118209026: 30 prospects
+2025-11-20 23:46:38,034 - INFO -   Tagnocon (118209026): 30 stores available (total: 30)
+2025-11-20 23:46:38,532 - INFO -     Barangay 112317044: 27 prospects
+2025-11-20 23:46:38,611 - INFO -   Tagpopongan (112317044): 27 stores available (total: 27)
+2025-11-20 23:46:39,110 - INFO -     Barangay 112509026: 47 prospects
+2025-11-20 23:46:39,175 - INFO -   Taguibo (112509026): 47 stores available (total: 47)
+2025-11-20 23:46:39,670 - INFO -     Barangay 112402114: 10 prospects
+2025-11-20 23:46:39,749 - INFO -   Tagurano (112402114): 10 stores available (total: 10)
+2025-11-20 23:46:40,919 - INFO -     Barangay 118205022: 2 prospects
+2025-11-20 23:46:41,004 - INFO -   Talian (118205022): 2 stores available (total: 2)
+2025-11-20 23:46:41,939 - INFO -     Barangay 112510017: 20 prospects
+2025-11-20 23:46:42,005 - INFO -   Talisay (112510017): 20 stores available (total: 20)
+2025-11-20 23:46:42,508 - INFO -     Barangay 112402118: 25 prospects
+2025-11-20 23:46:42,584 - INFO -   Tamayong (112402118): 25 stores available (total: 25)
+2025-11-20 23:46:43,082 - INFO -     Barangay 112506015: 2 prospects
+2025-11-20 23:46:43,154 - INFO -   Tamban (112506015): 2 stores available (total: 2)
+2025-11-20 23:46:43,646 - INFO -     Barangay 112402119: 62 prospects
+2025-11-20 23:46:43,717 - INFO -   Tambobong (112402119): 62 stores available (total: 62)
+2025-11-20 23:46:44,218 - INFO -     Barangay 118211010: 34 prospects
+2025-11-20 23:46:44,282 - INFO -   Tambongon (118211010): 34 stores available (total: 34)
+2025-11-20 23:46:45,017 - INFO -     Barangay 118201015: 65 prospects
+2025-11-20 23:46:45,099 - INFO -   Tamia (118201015): 65 stores available (total: 65)
+2025-11-20 23:46:46,392 - INFO -     Barangay 112509027: 14 prospects
+2025-11-20 23:46:46,473 - INFO -   Tamisan (112509027): 14 stores available (total: 14)
+2025-11-20 23:46:46,967 - INFO -     Barangay 112410034: 5 prospects
+2025-11-20 23:46:47,037 - INFO -   Tamlangon (112410034): 5 stores available (total: 5)
+2025-11-20 23:46:47,540 - INFO -     Barangay 112402120: 3 prospects
+2025-11-20 23:46:47,616 - INFO -   Tamugan (112402120): 3 stores available (total: 3)
+2025-11-20 23:46:48,115 - INFO -     Barangay 112506016: 13 prospects
+2025-11-20 23:46:48,190 - INFO -   Tandang Sora (112506016): 13 stores available (total: 13)
+2025-11-20 23:46:48,700 - INFO -     Barangay 112323005: 15 prospects
+2025-11-20 23:46:48,774 - INFO -   Tanglaw (112323005): 15 stores available (total: 15)
+2025-11-20 23:46:50,338 - INFO -     Barangay 118208022: 1 prospects
+2025-11-20 23:46:50,410 - INFO -   Tapia (118208022): 1 stores available (total: 1)
+2025-11-20 23:46:50,996 - INFO -     Barangay 112402122: 37 prospects
+2025-11-20 23:46:51,075 - INFO -   Tawan-tawan (112402122): 37 stores available (total: 37)
+2025-11-20 23:46:51,590 - INFO -     Barangay 112505018: 15 prospects
+2025-11-20 23:46:51,673 - INFO -   Taytayan (112505018): 15 stores available (total: 15)
+2025-11-20 23:46:52,172 - INFO -     Barangay 118204037: 28 prospects
+2025-11-20 23:46:52,234 - INFO -   Teresa (118204037): 28 stores available (total: 28)
+2025-11-20 23:46:52,730 - INFO -     Barangay 118211011: 28 prospects
+2025-11-20 23:46:52,806 - INFO -   Tibagon (118211011): 28 stores available (total: 28)
+2025-11-20 23:46:54,234 - INFO -     Barangay 112318011: 1 prospects
+2025-11-20 23:46:54,312 - INFO -   Tibal-og (Pob.) (112318011): 1 stores available (total: 1)
+2025-11-20 23:46:54,820 - INFO -     Barangay 112506017: 128 prospects
+2025-11-20 23:46:54,897 - INFO -   Tibanban (112506017): 128 stores available (total: 128)
+2025-11-20 23:46:55,459 - INFO -     Barangay 112506018: 42 prospects
+2025-11-20 23:46:55,530 - INFO -   Tiblawan (112506018): 42 stores available (total: 42)
+2025-11-20 23:46:56,047 - INFO -     Barangay 112412017: 18 prospects
+2025-11-20 23:46:56,120 - INFO -   Tibolo (112412017): 18 stores available (total: 18)
+2025-11-20 23:46:56,623 - INFO -     Barangay 112410036: 1 prospects
+2025-11-20 23:46:56,686 - INFO -   Tibongbong (112410036): 1 stores available (total: 1)
+2025-11-20 23:46:57,226 - INFO -     Barangay 112402124: 460 prospects
+2025-11-20 23:46:57,308 - INFO -   Tibungco (112402124): 460 stores available (total: 460)
+2025-11-20 23:46:58,661 - INFO -     Barangay 112305028: 10 prospects
+2025-11-20 23:46:58,746 - INFO -   Tiburcia (112305028): 10 stores available (total: 10)
+2025-11-20 23:46:59,254 - INFO -     Barangay 112401022: 4 prospects
+2025-11-20 23:46:59,330 - INFO -   Tinongtongan (112401022): 4 stores available (total: 4)
+2025-11-20 23:46:59,841 - INFO -     Barangay 112511010: 7 prospects
+2025-11-20 23:46:59,912 - INFO -   Tomoaong (112511010): 7 stores available (total: 7)
+2025-11-20 23:47:00,437 - INFO -     Barangay 112317046: 47 prospects
+2025-11-20 23:47:00,510 - INFO -   Toril (112317046): 47 stores available (total: 47)
+2025-11-20 23:47:01,123 - INFO -     Barangay 112402126: 14 prospects
+2025-11-20 23:47:01,179 - INFO -   Toril (Pob.) (112402126): 14 stores available (total: 14)
+2025-11-20 23:47:02,253 - INFO -     Barangay 112403027: 237 prospects
+2025-11-20 23:47:02,332 - INFO -   Tres De Mayo (112403027): 237 stores available (total: 237)
+2025-11-20 23:47:05,293 - INFO -     Barangay 112412018: 3 prospects
+2025-11-20 23:47:05,376 - INFO -   Tuban (112412018): 3 stores available (total: 3)
+2025-11-20 23:47:06,389 - INFO -     Barangay 112401023: 19 prospects
+2025-11-20 23:47:06,468 - INFO -   Tubod (112401023): 19 stores available (total: 19)
+2025-11-20 23:47:06,982 - INFO -     Barangay 118207019: 4 prospects
+2025-11-20 23:47:07,049 - INFO -   Tubo-tubo (New Del Monte) (118207019): 4 stores available (total: 4)
+2025-11-20 23:47:07,599 - INFO -     Barangay 112402127: 8 prospects
+2025-11-20 23:47:07,673 - INFO -   Tugbok (Pob.) (112402127): 8 stores available (total: 8)
+2025-11-20 23:47:08,519 - INFO -     Barangay 112411015: 5 prospects
+2025-11-20 23:47:08,594 - INFO -   Tulogan (112411015): 5 stores available (total: 5)
+2025-11-20 23:47:09,191 - INFO -     Barangay 112402194: 67 prospects
+2025-11-20 23:47:09,274 - INFO -   Ubalde (112402194): 67 stores available (total: 67)
+2025-11-20 23:47:10,037 - INFO -     Barangay 112402129: 2 prospects
+2025-11-20 23:47:10,093 - INFO -   Ula (112402129): 2 stores available (total: 2)
+2025-11-20 23:47:10,595 - INFO -     Barangay 112401024: 11 prospects
+2025-11-20 23:47:10,678 - INFO -   Union (112401024): 11 stores available (total: 11)
+2025-11-20 23:47:11,183 - INFO -     Barangay 118207021: 15 prospects
+2025-11-20 23:47:11,259 - INFO -   Union (118207021): 15 stores available (total: 15)
+2025-11-20 23:47:12,198 - INFO -     Barangay 112411016: 26 prospects
+2025-11-20 23:47:12,258 - INFO -   Upper Limonzo (112411016): 26 stores available (total: 26)
+2025-11-20 23:47:13,149 - INFO -     Barangay 112411017: 1 prospects
+2025-11-20 23:47:13,222 - INFO -   Upper Malinao (112411017): 1 stores available (total: 1)
+2025-11-20 23:47:13,891 - INFO -     Barangay 112506019: 2 prospects
+2025-11-20 23:47:13,975 - INFO -   Upper Tibanban (112506019): 2 stores available (total: 2)
+2025-11-20 23:47:14,515 - INFO -     Barangay 112402198: 34 prospects
+2025-11-20 23:47:14,583 - INFO -   Vicente Hizon Sr. (112402198): 34 stores available (total: 34)
+2025-11-20 23:47:15,421 - INFO -     Barangay 112319022: 95 prospects
+2025-11-20 23:47:15,498 - INFO -   Visayan Village (112319022): 95 stores available (total: 95)
+2025-11-20 23:47:15,999 - INFO -     Barangay 112402195: 33 prospects
+2025-11-20 23:47:16,085 - INFO -   Waan (112402195): 33 stores available (total: 33)
+2025-11-20 23:47:17,303 - INFO -     Barangay 112402131: 32 prospects
+2025-11-20 23:47:17,436 - INFO -   Wangan (112402131): 32 stores available (total: 32)
+2025-11-20 23:47:19,501 - INFO -     Barangay 112402196: 101 prospects
+2025-11-20 23:47:19,569 - INFO -   Wilfredo Aquino (112402196): 101 stores available (total: 101)
+2025-11-20 23:47:20,065 - INFO -     Barangay 112402133: 26 prospects
+2025-11-20 23:47:20,153 - INFO -   Wines (112402133): 26 stores available (total: 26)
+2025-11-20 23:47:21,206 - INFO -     Barangay 112403028: 51 prospects
+2025-11-20 23:47:21,318 - INFO -   Zone 1 (Pob.) (112403028): 51 stores available (total: 51)
+2025-11-20 23:47:21,814 - INFO -     Barangay 112403029: 49 prospects
+2025-11-20 23:47:21,891 - INFO -   Zone 2 (Pob.) (112403029): 49 stores available (total: 49)
+2025-11-20 23:47:22,575 - INFO -     Barangay 112403030: 235 prospects
+2025-11-20 23:47:22,650 - INFO -   Zone 3 (Pob.) (112403030): 235 stores available (total: 235)
+2025-11-20 23:47:23,354 - INFO -     Barangay 112412019: 52 prospects
+2025-11-20 23:47:23,427 - INFO -   Zone II (Pob.) (112412019): 52 stores available (total: 52)
+2025-11-20 23:47:24,546 - INFO -     Barangay 112412020: 66 prospects
+2025-11-20 23:47:24,619 - INFO -   Zone III (Pob.) (112412020): 66 stores available (total: 66)
+2025-11-20 23:47:24,629 - INFO - 
+Barangays sorted by store count (highest first):
+2025-11-20 23:47:24,630 - INFO -   1. Bucana: 656 stores
+2025-11-20 23:47:24,631 - INFO -   2. Tibungco: 460 stores
+2025-11-20 23:47:24,632 - INFO -   3. Buhangin (Pob.): 438 stores
+2025-11-20 23:47:24,632 - INFO -   4. Ilang: 353 stores
+2025-11-20 23:47:24,633 - INFO -   5. Barangay 19-B (Pob.): 328 stores
+2025-11-20 23:47:24,634 - INFO -   6. Mankilam: 321 stores
+2025-11-20 23:47:24,636 - INFO -   7. Bunawan (Pob.): 292 stores
+2025-11-20 23:47:24,636 - INFO -   8. Calinan (Pob.): 290 stores
+2025-11-20 23:47:24,637 - INFO -   9. Sasa: 268 stores
+2025-11-20 23:47:24,638 - INFO -   10. Matina Aplaya: 262 stores
+2025-11-20 23:47:24,638 - INFO -   ... and 618 more barangays
+2025-11-20 23:47:24,639 - INFO - 
+================================================================================
+2025-11-20 23:47:24,639 - INFO - STEP 3: Processing barangays and clustering prospects
+2025-11-20 23:47:24,641 - INFO - Processing order: HIGHEST store count first
+2025-11-20 23:47:24,641 - INFO - Monthly capacity: 120 routes (will stop when reached)
+2025-11-20 23:47:24,641 - INFO - ================================================================================
+2025-11-20 23:47:24,655 - INFO -   Progress: 0/120 routes created, 0 stores assigned
+2025-11-20 23:47:24,990 - INFO -     Barangay 112402020: 656 prospects
+2025-11-20 23:47:24,992 - INFO -     Clustering 656 prospects using FAST Haversine distance...
+2025-11-20 23:47:26,537 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:26,602 - INFO -       Splitting cluster 0 (655 stores) using constrained K-means
+2025-11-20 23:47:34,541 - INFO -       Created 11 subclusters: sizes 55-60
+2025-11-20 23:47:34,541 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:34,542 - INFO -     Created 11 clusters
+2025-11-20 23:47:34,545 - INFO -     Cluster sizes: min=55, max=60, mean=59.5
+2025-11-20 23:47:34,557 - INFO -   Progress: 11/120 routes created, 655 stores assigned
+2025-11-20 23:47:35,042 - INFO -     Barangay 112402124: 460 prospects
+2025-11-20 23:47:35,043 - INFO -     Clustering 460 prospects using FAST Haversine distance...
+2025-11-20 23:47:35,113 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:35,113 - INFO -       Splitting cluster 0 (453 stores) using constrained K-means
+2025-11-20 23:47:37,516 - INFO -       Created 8 subclusters: sizes 43-60
+2025-11-20 23:47:37,517 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:37,518 - INFO -     Created 9 clusters
+2025-11-20 23:47:37,519 - INFO -     Cluster sizes: min=6, max=60, mean=51.0
+2025-11-20 23:47:37,530 - INFO -   Progress: 20/120 routes created, 1114 stores assigned
+2025-11-20 23:47:40,193 - INFO -     Barangay 112402021: 438 prospects
+2025-11-20 23:47:40,194 - INFO -     Clustering 438 prospects using FAST Haversine distance...
+2025-11-20 23:47:40,270 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:40,270 - INFO -       Splitting cluster 0 (437 stores) using constrained K-means
+2025-11-20 23:47:42,459 - INFO -       Created 8 subclusters: sizes 42-60
+2025-11-20 23:47:42,459 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:42,460 - INFO -     Created 8 clusters
+2025-11-20 23:47:42,461 - INFO -     Cluster sizes: min=42, max=60, mean=54.6
+2025-11-20 23:47:42,473 - INFO -   Progress: 28/120 routes created, 1551 stores assigned
+2025-11-20 23:47:42,800 - INFO -     Barangay 112402049: 353 prospects
+2025-11-20 23:47:42,801 - INFO -     Clustering 353 prospects using FAST Haversine distance...
+2025-11-20 23:47:42,851 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:42,851 - INFO -       Splitting cluster 0 (351 stores) using constrained K-means
+2025-11-20 23:47:43,913 - INFO -       Created 6 subclusters: sizes 55-60
+2025-11-20 23:47:43,914 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:43,915 - INFO -     Created 6 clusters
+2025-11-20 23:47:43,916 - INFO -     Cluster sizes: min=55, max=60, mean=58.5
+2025-11-20 23:47:43,927 - INFO -   Progress: 34/120 routes created, 1902 stores assigned
+2025-11-20 23:47:44,259 - INFO -     Barangay 112402152: 328 prospects
+2025-11-20 23:47:44,260 - INFO -     Clustering 328 prospects using FAST Haversine distance...
+2025-11-20 23:47:44,303 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:44,303 - INFO -       Splitting cluster 0 (282 stores) using constrained K-means
+2025-11-20 23:47:44,810 - INFO -       Created 5 subclusters: sizes 42-60
+2025-11-20 23:47:44,811 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:44,813 - INFO -     Created 6 clusters
+2025-11-20 23:47:44,814 - INFO -     Cluster sizes: min=42, max=60, mean=54.5
+2025-11-20 23:47:44,824 - INFO -   Progress: 40/120 routes created, 2229 stores assigned
+2025-11-20 23:47:45,159 - INFO -     Barangay 112319011: 321 prospects
+2025-11-20 23:47:45,160 - INFO -     Clustering 321 prospects using FAST Haversine distance...
+2025-11-20 23:47:45,208 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:45,209 - INFO -       Splitting cluster 0 (227 stores) using constrained K-means
+2025-11-20 23:47:45,682 - INFO -       Created 4 subclusters: sizes 51-60
+2025-11-20 23:47:45,682 - INFO -       Splitting cluster 1 (93 stores) using constrained K-means
+2025-11-20 23:47:45,805 - INFO -       Created 2 subclusters: sizes 44-49
+2025-11-20 23:47:45,806 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:45,808 - INFO -     Created 6 clusters
+2025-11-20 23:47:45,809 - INFO -     Cluster sizes: min=44, max=60, mean=53.3
+2025-11-20 23:47:45,821 - INFO -   Progress: 46/120 routes created, 2549 stores assigned
+2025-11-20 23:47:46,157 - INFO -     Barangay 112402022: 292 prospects
+2025-11-20 23:47:46,158 - INFO -     Clustering 292 prospects using FAST Haversine distance...
+2025-11-20 23:47:46,202 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:46,203 - INFO -       Splitting cluster 0 (292 stores) using constrained K-means
+2025-11-20 23:47:46,758 - INFO -       Created 5 subclusters: sizes 52-60
+2025-11-20 23:47:46,759 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:46,760 - INFO -     Created 5 clusters
+2025-11-20 23:47:46,761 - INFO -     Cluster sizes: min=52, max=60, mean=58.4
+2025-11-20 23:47:46,770 - INFO -   Progress: 51/120 routes created, 2841 stores assigned
+2025-11-20 23:47:47,745 - INFO -     Barangay 112402026: 290 prospects
+2025-11-20 23:47:47,746 - INFO -     Clustering 290 prospects using FAST Haversine distance...
+2025-11-20 23:47:47,780 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:47,780 - INFO -       Splitting cluster 0 (278 stores) using constrained K-means
+2025-11-20 23:47:48,281 - INFO -       Created 5 subclusters: sizes 38-60
+2025-11-20 23:47:48,282 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:48,284 - INFO -     Created 7 clusters
+2025-11-20 23:47:48,286 - INFO -     Cluster sizes: min=4, max=60, mean=41.1
+2025-11-20 23:47:48,295 - INFO -   Progress: 58/120 routes created, 3129 stores assigned
+2025-11-20 23:47:48,604 - INFO -     Barangay 112402101: 268 prospects
+2025-11-20 23:47:48,605 - INFO -     Clustering 268 prospects using FAST Haversine distance...
+2025-11-20 23:47:48,638 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:48,639 - INFO -       Splitting cluster 0 (266 stores) using constrained K-means
+2025-11-20 23:47:49,018 - INFO -       Created 5 subclusters: sizes 46-60
+2025-11-20 23:47:49,018 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:49,020 - INFO -     Created 5 clusters
+2025-11-20 23:47:49,021 - INFO -     Cluster sizes: min=46, max=60, mean=53.2
+2025-11-20 23:47:49,032 - INFO -   Progress: 63/120 routes created, 3395 stores assigned
+2025-11-20 23:47:49,359 - INFO -     Barangay 112402074: 262 prospects
+2025-11-20 23:47:49,361 - INFO -     Clustering 262 prospects using FAST Haversine distance...
+2025-11-20 23:47:49,395 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:49,395 - INFO -       Splitting cluster 0 (257 stores) using constrained K-means
+2025-11-20 23:47:49,912 - INFO -       Created 5 subclusters: sizes 17-60
+2025-11-20 23:47:49,913 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:49,914 - INFO -     Created 6 clusters
+2025-11-20 23:47:49,915 - INFO -     Cluster sizes: min=5, max=60, mean=43.7
+2025-11-20 23:47:49,927 - INFO -   Progress: 69/120 routes created, 3657 stores assigned
+2025-11-20 23:47:50,278 - INFO -     Barangay 112402005: 258 prospects
+2025-11-20 23:47:50,279 - INFO -     Clustering 258 prospects using FAST Haversine distance...
+2025-11-20 23:47:50,311 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:50,312 - INFO -       Splitting cluster 0 (234 stores) using constrained K-means
+2025-11-20 23:47:50,640 - INFO -       Created 4 subclusters: sizes 54-60
+2025-11-20 23:47:50,641 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:50,642 - INFO -     Created 5 clusters
+2025-11-20 23:47:50,643 - INFO -     Cluster sizes: min=23, max=60, mean=51.4
+2025-11-20 23:47:50,653 - INFO -   Progress: 74/120 routes created, 3914 stores assigned
+2025-11-20 23:47:51,533 - INFO -     Barangay 112402043: 253 prospects
+2025-11-20 23:47:51,534 - INFO -     Clustering 253 prospects using FAST Haversine distance...
+2025-11-20 23:47:51,568 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:51,568 - INFO -       Splitting cluster 1 (197 stores) using constrained K-means
+2025-11-20 23:47:51,850 - INFO -       Created 4 subclusters: sizes 35-60
+2025-11-20 23:47:51,850 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:51,851 - INFO -     Created 6 clusters
+2025-11-20 23:47:51,852 - INFO -     Cluster sizes: min=25, max=60, mean=42.2
+2025-11-20 23:47:51,861 - INFO -   Progress: 80/120 routes created, 4167 stores assigned
+2025-11-20 23:47:52,178 - INFO -     Barangay 112402087: 244 prospects
+2025-11-20 23:47:52,179 - INFO -     Clustering 244 prospects using FAST Haversine distance...
+2025-11-20 23:47:52,209 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:52,209 - INFO -       Splitting cluster 0 (142 stores) using constrained K-means
+2025-11-20 23:47:52,377 - INFO -       Created 3 subclusters: sizes 23-60
+2025-11-20 23:47:52,377 - INFO -       Splitting cluster 1 (102 stores) using constrained K-means
+2025-11-20 23:47:52,495 - INFO -       Created 2 subclusters: sizes 50-52
+2025-11-20 23:47:52,496 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:52,496 - INFO -     Created 5 clusters
+2025-11-20 23:47:52,497 - INFO -     Cluster sizes: min=23, max=60, mean=48.8
+2025-11-20 23:47:52,508 - INFO -   Progress: 85/120 routes created, 4411 stores assigned
+2025-11-20 23:47:52,853 - INFO -     Barangay 112402030: 240 prospects
+2025-11-20 23:47:52,854 - INFO -     Clustering 240 prospects using FAST Haversine distance...
+2025-11-20 23:47:52,888 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:52,888 - INFO -       Splitting cluster 0 (119 stores) using constrained K-means
+2025-11-20 23:47:53,025 - INFO -       Created 2 subclusters: sizes 59-60
+2025-11-20 23:47:53,026 - INFO -       Splitting cluster 1 (94 stores) using constrained K-means
+2025-11-20 23:47:53,130 - INFO -       Created 2 subclusters: sizes 34-60
+2025-11-20 23:47:53,130 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:53,131 - INFO -     Created 6 clusters
+2025-11-20 23:47:53,133 - INFO -     Cluster sizes: min=9, max=60, mean=39.7
+2025-11-20 23:47:53,143 - INFO -   Progress: 91/120 routes created, 4649 stores assigned
+2025-11-20 23:47:53,470 - INFO -     Barangay 112403027: 237 prospects
+2025-11-20 23:47:53,471 - INFO -     Clustering 237 prospects using FAST Haversine distance...
+2025-11-20 23:47:53,499 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:53,500 - INFO -       Splitting cluster 0 (235 stores) using constrained K-means
+2025-11-20 23:47:53,742 - INFO -       Created 4 subclusters: sizes 57-60
+2025-11-20 23:47:53,742 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:53,743 - INFO -     Created 4 clusters
+2025-11-20 23:47:53,744 - INFO -     Cluster sizes: min=57, max=60, mean=58.8
+2025-11-20 23:47:53,756 - INFO -   Progress: 95/120 routes created, 4884 stores assigned
+2025-11-20 23:47:54,089 - INFO -     Barangay 112403030: 235 prospects
+2025-11-20 23:47:54,090 - INFO -     Clustering 235 prospects using FAST Haversine distance...
+2025-11-20 23:47:54,127 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:54,127 - INFO -       Splitting cluster 0 (235 stores) using constrained K-means
+2025-11-20 23:47:54,479 - INFO -       Created 4 subclusters: sizes 55-60
+2025-11-20 23:47:54,480 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:54,482 - INFO -     Created 4 clusters
+2025-11-20 23:47:54,483 - INFO -     Cluster sizes: min=55, max=60, mean=58.8
+2025-11-20 23:47:54,492 - INFO -   Progress: 99/120 routes created, 5119 stores assigned
+2025-11-20 23:47:55,540 - INFO -     Barangay 112402086: 230 prospects
+2025-11-20 23:47:55,540 - INFO -     Clustering 230 prospects using FAST Haversine distance...
+2025-11-20 23:47:55,579 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:55,579 - INFO -       Splitting cluster 0 (229 stores) using constrained K-means
+2025-11-20 23:47:55,969 - INFO -       Created 4 subclusters: sizes 49-60
+2025-11-20 23:47:55,969 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:55,969 - INFO -     Created 4 clusters
+2025-11-20 23:47:55,971 - INFO -     Cluster sizes: min=49, max=60, mean=57.2
+2025-11-20 23:47:55,981 - INFO -   Progress: 103/120 routes created, 5348 stores assigned
+2025-11-20 23:47:56,305 - INFO -     Barangay 112402061: 217 prospects
+2025-11-20 23:47:56,306 - INFO -     Clustering 217 prospects using FAST Haversine distance...
+2025-11-20 23:47:56,341 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:56,342 - INFO -       Splitting cluster 1 (98 stores) using constrained K-means
+2025-11-20 23:47:56,522 - INFO -       Created 2 subclusters: sizes 46-52
+2025-11-20 23:47:56,522 - INFO -       Splitting cluster 2 (61 stores) using constrained K-means
+2025-11-20 23:47:56,586 - INFO -       Created 2 subclusters: sizes 26-35
+2025-11-20 23:47:56,586 - INFO -       Final max cluster size: 52 (limit: 60)
+2025-11-20 23:47:56,587 - INFO -     Created 6 clusters
+2025-11-20 23:47:56,589 - INFO -     Cluster sizes: min=5, max=52, mean=35.7
+2025-11-20 23:47:56,599 - INFO -   Progress: 109/120 routes created, 5562 stores assigned
+2025-11-20 23:47:56,970 - INFO -     Barangay 112402079: 208 prospects
+2025-11-20 23:47:56,971 - INFO -     Clustering 208 prospects using FAST Haversine distance...
+2025-11-20 23:47:57,003 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:57,004 - INFO -       Splitting cluster 0 (184 stores) using constrained K-means
+2025-11-20 23:47:57,245 - INFO -       Created 4 subclusters: sizes 41-56
+2025-11-20 23:47:57,246 - INFO -       Final max cluster size: 56 (limit: 60)
+2025-11-20 23:47:57,247 - INFO -     Created 6 clusters
+2025-11-20 23:47:57,249 - INFO -     Cluster sizes: min=4, max=56, mean=34.0
+2025-11-20 23:47:57,260 - INFO -   Progress: 115/120 routes created, 5766 stores assigned
+2025-11-20 23:47:57,576 - INFO -     Barangay 112402064: 195 prospects
+2025-11-20 23:47:57,577 - INFO -     Clustering 195 prospects using FAST Haversine distance...
+2025-11-20 23:47:57,606 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 23:47:57,607 - INFO -       Splitting cluster 0 (93 stores) using constrained K-means
+2025-11-20 23:47:57,713 - INFO -       Created 2 subclusters: sizes 33-60
+2025-11-20 23:47:57,713 - INFO -       Splitting cluster 1 (66 stores) using constrained K-means
+2025-11-20 23:47:57,822 - INFO -       Created 2 subclusters: sizes 32-34
+2025-11-20 23:47:57,823 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 23:47:57,823 - INFO -     Created 7 clusters
+2025-11-20 23:47:57,825 - INFO -     Cluster sizes: min=5, max=60, mean=27.1
+2025-11-20 23:47:57,828 - WARNING -   Current: 115, Would become: 122, Limit: 120
+2025-11-20 23:47:57,828 - WARNING -   Skipping this and remaining barangays for this month
+2025-11-20 23:47:57,831 - INFO - 
+Total prospects clustered: 5790
+2025-11-20 23:47:57,831 - INFO - 
+================================================================================
+2025-11-20 23:47:57,832 - INFO - STEP 4: Post-processing - Merging small clusters
+2025-11-20 23:47:57,832 - INFO - ================================================================================
+2025-11-20 23:47:57,833 - INFO - 
+Post-processing: Merging clusters with < 35 stores (max size: 60)...
+2025-11-20 23:47:57,835 - INFO -   Found 17 small clusters to merge
+2025-11-20 23:47:58,056 - WARNING -   Cannot merge cluster 107 (58 stores) - would exceed 60 store limit
+2025-11-20 23:47:58,059 - WARNING -   Cannot merge cluster 126 (52 stores) - would exceed 60 store limit
+2025-11-20 23:47:58,062 - WARNING -   Cannot merge cluster 129 (49 stores) - would exceed 60 store limit
+2025-11-20 23:47:58,067 - WARNING -   Cannot merge cluster 132 (41 stores) - would exceed 60 store limit
+2025-11-20 23:47:58,072 - WARNING -   Cannot merge cluster 133 (35 stores) - would exceed 60 store limit
+2025-11-20 23:47:58,072 - INFO -   Merged 12 small clusters, skipped 5
+2025-11-20 23:47:58,073 - INFO - 
+Final cluster distribution:
+2025-11-20 23:47:58,073 - INFO -   Total clusters: 104
+2025-11-20 23:47:58,074 - INFO -   Cluster sizes: min=35, max=60, mean=55.7
+2025-11-20 23:47:58,075 - INFO - 
+================================================================================
+2025-11-20 23:47:58,075 - INFO - STEP 5: Assigning agents and dates to clusters
+2025-11-20 23:47:58,075 - INFO - ================================================================================
+2025-11-20 23:47:58,075 - INFO - 
+Assigning agents and dates to clusters...
+2025-11-20 23:47:58,076 - INFO -   Start date (First Monday of month): 2025-12-01
+2025-11-20 23:47:58,076 - INFO -   Working days: Monday-Saturday (6 days per week, Sunday is holiday)
+2025-11-20 23:47:58,078 - INFO -   Number of agents: 5
+2025-11-20 23:47:58,078 - INFO -   Number of clusters to assign: 104
+2025-11-20 23:47:58,079 - INFO -   Monthly capacity: 120 routes (5 agents × 6 days × 4 weeks)
+2025-11-20 23:47:58,079 - INFO -   Assigning 104 clusters to 5 agents...
+2025-11-20 23:47:58,080 - INFO -   Cluster 11: Agent MVP-NAO1, Date 2025-12-01 (WD=1)
+2025-11-20 23:47:58,082 - INFO -   Cluster 7: Agent MVP-NAO2, Date 2025-12-01 (WD=1)
+2025-11-20 23:47:58,083 - INFO -   Cluster 5: Agent MVP-NAO3, Date 2025-12-01 (WD=1)
+2025-11-20 23:47:58,084 - INFO -   Cluster 1: Agent MVP-NAO4, Date 2025-12-01 (WD=1)
+2025-11-20 23:47:58,085 - INFO -   Cluster 10: Agent MVP-NAO5, Date 2025-12-01 (WD=1)
+2025-11-20 23:47:58,087 - INFO -   Cluster 9: Agent MVP-NAO1, Date 2025-12-02 (WD=2)
+2025-11-20 23:47:58,088 - INFO -   Cluster 4: Agent MVP-NAO2, Date 2025-12-02 (WD=2)
+2025-11-20 23:47:58,089 - INFO -   Cluster 3: Agent MVP-NAO3, Date 2025-12-02 (WD=2)
+2025-11-20 23:47:58,089 - INFO -   Cluster 8: Agent MVP-NAO4, Date 2025-12-02 (WD=2)
+2025-11-20 23:47:58,090 - INFO -   Cluster 2: Agent MVP-NAO5, Date 2025-12-02 (WD=2)
+2025-11-20 23:47:58,091 - INFO -   Cluster 6: Agent MVP-NAO1, Date 2025-12-03 (WD=3)
+2025-11-20 23:47:58,092 - INFO -   Cluster 107: Agent MVP-NAO2, Date 2025-12-03 (WD=3)
+2025-11-20 23:47:58,093 - INFO -   Cluster 21: Agent MVP-NAO3, Date 2025-12-03 (WD=3)
+2025-11-20 23:47:58,093 - INFO -   Cluster 18: Agent MVP-NAO4, Date 2025-12-03 (WD=3)
+2025-11-20 23:47:58,095 - INFO -   Cluster 15: Agent MVP-NAO5, Date 2025-12-03 (WD=3)
+2025-11-20 23:47:58,096 - INFO -   Cluster 17: Agent MVP-NAO1, Date 2025-12-04 (WD=4)
+2025-11-20 23:47:58,098 - INFO -   Cluster 19: Agent MVP-NAO2, Date 2025-12-04 (WD=4)
+2025-11-20 23:47:58,099 - INFO -   Cluster 16: Agent MVP-NAO3, Date 2025-12-04 (WD=4)
+2025-11-20 23:47:58,100 - INFO -   Cluster 14: Agent MVP-NAO4, Date 2025-12-04 (WD=4)
+2025-11-20 23:47:58,101 - INFO -   Cluster 20: Agent MVP-NAO5, Date 2025-12-04 (WD=4)
+2025-11-20 23:47:58,102 - INFO -   Cluster 25: Agent MVP-NAO1, Date 2025-12-05 (WD=5)
+2025-11-20 23:47:58,103 - INFO -   Cluster 28: Agent MVP-NAO2, Date 2025-12-05 (WD=5)
+2025-11-20 23:47:58,104 - INFO -   Cluster 24: Agent MVP-NAO3, Date 2025-12-05 (WD=5)
+2025-11-20 23:47:58,106 - INFO -   Cluster 30: Agent MVP-NAO4, Date 2025-12-05 (WD=5)
+2025-11-20 23:47:58,106 - INFO -   Cluster 27: Agent MVP-NAO5, Date 2025-12-05 (WD=5)
+2025-11-20 23:47:58,107 - INFO -   Cluster 26: Agent MVP-NAO1, Date 2025-12-06 (WD=6)
+2025-11-20 23:47:58,108 - INFO -   Cluster 29: Agent MVP-NAO2, Date 2025-12-06 (WD=6)
+2025-11-20 23:47:58,109 - INFO -   Cluster 23: Agent MVP-NAO3, Date 2025-12-06 (WD=6)
+2025-11-20 23:47:58,109 - INFO -   Cluster 35: Agent MVP-NAO4, Date 2025-12-06 (WD=6)
+2025-11-20 23:47:58,110 - INFO -   Cluster 34: Agent MVP-NAO5, Date 2025-12-06 (WD=6)
+2025-11-20 23:47:58,111 - INFO -   Cluster 36: Agent MVP-NAO1, Date 2025-12-08 (WD=1)
+2025-11-20 23:47:58,111 - INFO -   Cluster 32: Agent MVP-NAO2, Date 2025-12-08 (WD=1)
+2025-11-20 23:47:58,113 - INFO -   Cluster 33: Agent MVP-NAO3, Date 2025-12-08 (WD=1)
+2025-11-20 23:47:58,114 - INFO -   Cluster 37: Agent MVP-NAO4, Date 2025-12-08 (WD=1)
+2025-11-20 23:47:58,116 - INFO -   Cluster 42: Agent MVP-NAO5, Date 2025-12-08 (WD=1)
+2025-11-20 23:47:58,117 - INFO -   Cluster 41: Agent MVP-NAO1, Date 2025-12-09 (WD=2)
+2025-11-20 23:47:58,118 - INFO -   Cluster 40: Agent MVP-NAO2, Date 2025-12-09 (WD=2)
+2025-11-20 23:47:58,120 - INFO -   Cluster 44: Agent MVP-NAO3, Date 2025-12-09 (WD=2)
+2025-11-20 23:47:58,120 - INFO -   Cluster 43: Agent MVP-NAO4, Date 2025-12-09 (WD=2)
+2025-11-20 23:47:58,121 - INFO -   Cluster 39: Agent MVP-NAO5, Date 2025-12-09 (WD=2)
+2025-11-20 23:47:58,122 - INFO -   Cluster 48: Agent MVP-NAO1, Date 2025-12-10 (WD=3)
+2025-11-20 23:47:58,123 - INFO -   Cluster 50: Agent MVP-NAO2, Date 2025-12-10 (WD=3)
+2025-11-20 23:47:58,124 - INFO -   Cluster 49: Agent MVP-NAO3, Date 2025-12-10 (WD=3)
+2025-11-20 23:47:58,124 - INFO -   Cluster 52: Agent MVP-NAO4, Date 2025-12-10 (WD=3)
+2025-11-20 23:47:58,125 - INFO -   Cluster 51: Agent MVP-NAO5, Date 2025-12-10 (WD=3)
+2025-11-20 23:47:58,126 - INFO -   Cluster 47: Agent MVP-NAO1, Date 2025-12-11 (WD=4)
+2025-11-20 23:47:58,126 - INFO -   Cluster 57: Agent MVP-NAO2, Date 2025-12-11 (WD=4)
+2025-11-20 23:47:58,127 - INFO -   Cluster 56: Agent MVP-NAO3, Date 2025-12-11 (WD=4)
+2025-11-20 23:47:58,128 - INFO -   Cluster 58: Agent MVP-NAO4, Date 2025-12-11 (WD=4)
+2025-11-20 23:47:58,129 - INFO -   Cluster 54: Agent MVP-NAO5, Date 2025-12-11 (WD=4)
+2025-11-20 23:47:58,130 - INFO -   Cluster 55: Agent MVP-NAO1, Date 2025-12-12 (WD=5)
+2025-11-20 23:47:58,131 - INFO -   Cluster 65: Agent MVP-NAO2, Date 2025-12-12 (WD=5)
+2025-11-20 23:47:58,133 - INFO -   Cluster 62: Agent MVP-NAO3, Date 2025-12-12 (WD=5)
+2025-11-20 23:47:58,134 - INFO -   Cluster 63: Agent MVP-NAO4, Date 2025-12-12 (WD=5)
+2025-11-20 23:47:58,135 - INFO -   Cluster 66: Agent MVP-NAO5, Date 2025-12-12 (WD=5)
+2025-11-20 23:47:58,137 - INFO -   Cluster 64: Agent MVP-NAO1, Date 2025-12-13 (WD=6)
+2025-11-20 23:47:58,137 - INFO -   Cluster 70: Agent MVP-NAO2, Date 2025-12-13 (WD=6)
+2025-11-20 23:47:58,138 - INFO -   Cluster 71: Agent MVP-NAO3, Date 2025-12-13 (WD=6)
+2025-11-20 23:47:58,139 - INFO -   Cluster 69: Agent MVP-NAO4, Date 2025-12-13 (WD=6)
+2025-11-20 23:47:58,140 - INFO -   Cluster 68: Agent MVP-NAO5, Date 2025-12-13 (WD=6)
+2025-11-20 23:47:58,141 - INFO -   Cluster 72: Agent MVP-NAO1, Date 2025-12-15 (WD=1)
+2025-11-20 23:47:58,141 - INFO -   Cluster 77: Agent MVP-NAO2, Date 2025-12-15 (WD=1)
+2025-11-20 23:47:58,143 - INFO -   Cluster 75: Agent MVP-NAO3, Date 2025-12-15 (WD=1)
+2025-11-20 23:47:58,143 - INFO -   Cluster 78: Agent MVP-NAO4, Date 2025-12-15 (WD=1)
+2025-11-20 23:47:58,144 - INFO -   Cluster 76: Agent MVP-NAO5, Date 2025-12-15 (WD=1)
+2025-11-20 23:47:58,145 - INFO -   Cluster 126: Agent MVP-NAO1, Date 2025-12-16 (WD=2)
+2025-11-20 23:47:58,145 - INFO -   Cluster 85: Agent MVP-NAO2, Date 2025-12-16 (WD=2)
+2025-11-20 23:47:58,146 - INFO -   Cluster 82: Agent MVP-NAO3, Date 2025-12-16 (WD=2)
+2025-11-20 23:47:58,147 - INFO -   Cluster 83: Agent MVP-NAO4, Date 2025-12-16 (WD=2)
+2025-11-20 23:47:58,149 - INFO -   Cluster 84: Agent MVP-NAO5, Date 2025-12-16 (WD=2)
+2025-11-20 23:47:58,150 - INFO -   Cluster 91: Agent MVP-NAO1, Date 2025-12-17 (WD=3)
+2025-11-20 23:47:58,151 - INFO -   Cluster 89: Agent MVP-NAO2, Date 2025-12-17 (WD=3)
+2025-11-20 23:47:58,152 - INFO -   Cluster 92: Agent MVP-NAO3, Date 2025-12-17 (WD=3)
+2025-11-20 23:47:58,153 - INFO -   Cluster 90: Agent MVP-NAO4, Date 2025-12-17 (WD=3)
+2025-11-20 23:47:58,154 - INFO -   Cluster 133: Agent MVP-NAO5, Date 2025-12-17 (WD=3)
+2025-11-20 23:47:58,155 - INFO -   Cluster 95: Agent MVP-NAO1, Date 2025-12-18 (WD=4)
+2025-11-20 23:47:58,156 - INFO -   Cluster 97: Agent MVP-NAO2, Date 2025-12-18 (WD=4)
+2025-11-20 23:47:58,157 - INFO -   Cluster 99: Agent MVP-NAO3, Date 2025-12-18 (WD=4)
+2025-11-20 23:47:58,157 - INFO -   Cluster 98: Agent MVP-NAO4, Date 2025-12-18 (WD=4)
+2025-11-20 23:47:58,158 - INFO -   Cluster 129: Agent MVP-NAO5, Date 2025-12-18 (WD=4)
+2025-11-20 23:47:58,159 - INFO -   Cluster 105: Agent MVP-NAO1, Date 2025-12-19 (WD=5)
+2025-11-20 23:47:58,159 - INFO -   Cluster 106: Agent MVP-NAO2, Date 2025-12-19 (WD=5)
+2025-11-20 23:47:58,161 - INFO -   Cluster 132: Agent MVP-NAO3, Date 2025-12-19 (WD=5)
+2025-11-20 23:47:58,162 - INFO -   Cluster 104: Agent MVP-NAO4, Date 2025-12-19 (WD=5)
+2025-11-20 23:47:58,163 - INFO -   Cluster 112: Agent MVP-NAO5, Date 2025-12-19 (WD=5)
+2025-11-20 23:47:58,164 - INFO -   Cluster 111: Agent MVP-NAO1, Date 2025-12-20 (WD=6)
+2025-11-20 23:47:58,166 - INFO -   Cluster 110: Agent MVP-NAO2, Date 2025-12-20 (WD=6)
+2025-11-20 23:47:58,167 - INFO -   Cluster 109: Agent MVP-NAO3, Date 2025-12-20 (WD=6)
+2025-11-20 23:47:58,168 - INFO -   Cluster 116: Agent MVP-NAO4, Date 2025-12-20 (WD=6)
+2025-11-20 23:47:58,169 - INFO -   Cluster 117: Agent MVP-NAO5, Date 2025-12-20 (WD=6)
+2025-11-20 23:47:58,169 - INFO -   Cluster 114: Agent MVP-NAO1, Date 2025-12-22 (WD=1)
+2025-11-20 23:47:58,171 - INFO -   Cluster 115: Agent MVP-NAO2, Date 2025-12-22 (WD=1)
+2025-11-20 23:47:58,171 - INFO -   Cluster 122: Agent MVP-NAO3, Date 2025-12-22 (WD=1)
+2025-11-20 23:47:58,172 - INFO -   Cluster 121: Agent MVP-NAO4, Date 2025-12-22 (WD=1)
+2025-11-20 23:47:58,173 - INFO -   Cluster 119: Agent MVP-NAO5, Date 2025-12-22 (WD=1)
+2025-11-20 23:47:58,174 - INFO -   Cluster 120: Agent MVP-NAO1, Date 2025-12-23 (WD=2)
+2025-11-20 23:47:58,174 - INFO -   Cluster 123: Agent MVP-NAO2, Date 2025-12-23 (WD=2)
+2025-11-20 23:47:58,175 - INFO -   Cluster 127: Agent MVP-NAO3, Date 2025-12-23 (WD=2)
+2025-11-20 23:47:58,177 - INFO -   Cluster 128: Agent MVP-NAO4, Date 2025-12-23 (WD=2)
+2025-11-20 23:47:58,177 - INFO -   Cluster 130: Agent MVP-NAO5, Date 2025-12-23 (WD=2)
+2025-11-20 23:47:58,178 - INFO -   Cluster 135: Agent MVP-NAO1, Date 2025-12-24 (WD=3)
+2025-11-20 23:47:58,179 - INFO -   Cluster 137: Agent MVP-NAO2, Date 2025-12-24 (WD=3)
+2025-11-20 23:47:58,180 - INFO -   Cluster 136: Agent MVP-NAO3, Date 2025-12-24 (WD=3)
+2025-11-20 23:47:58,181 - INFO -   Cluster 134: Agent MVP-NAO4, Date 2025-12-24 (WD=3)
+2025-11-20 23:47:58,187 - INFO -   Assigned 104 clusters to 104 unique (agent, date) combinations
+2025-11-20 23:47:58,188 - INFO - 
+================================================================================
+2025-11-20 23:47:58,188 - INFO - STEP 6: Optimizing routes and preparing for insertion
+2025-11-20 23:47:58,188 - INFO - ================================================================================
+2025-11-20 23:47:58,190 - INFO - 
+Optimizing Cluster 11: 60 prospects
+2025-11-20 23:47:58,243 - INFO - 
+Optimizing Cluster 7: 60 prospects
+2025-11-20 23:47:58,292 - INFO - 
+Optimizing Cluster 5: 60 prospects
+2025-11-20 23:47:58,339 - INFO - 
+Optimizing Cluster 1: 60 prospects
+2025-11-20 23:47:58,385 - INFO - 
+Optimizing Cluster 10: 60 prospects
+2025-11-20 23:47:58,427 - INFO - 
+Optimizing Cluster 9: 55 prospects
+2025-11-20 23:47:58,464 - INFO - 
+Optimizing Cluster 4: 60 prospects
+2025-11-20 23:47:58,504 - INFO - 
+Optimizing Cluster 3: 60 prospects
+2025-11-20 23:47:58,545 - INFO - 
+Optimizing Cluster 8: 60 prospects
+2025-11-20 23:47:58,586 - INFO - 
+Optimizing Cluster 2: 60 prospects
+2025-11-20 23:47:58,649 - INFO - 
+Optimizing Cluster 6: 60 prospects
+2025-11-20 23:47:58,705 - INFO - 
+Optimizing Cluster 107: 58 prospects
+2025-11-20 23:47:58,745 - INFO - 
+Optimizing Cluster 21: 60 prospects
+2025-11-20 23:47:58,784 - INFO - 
+Optimizing Cluster 18: 43 prospects
+2025-11-20 23:47:58,817 - INFO - 
+Optimizing Cluster 15: 56 prospects
+2025-11-20 23:47:58,858 - INFO - 
+Optimizing Cluster 17: 60 prospects
+2025-11-20 23:47:58,904 - INFO - 
+Optimizing Cluster 19: 60 prospects
+2025-11-20 23:47:58,944 - INFO - 
+Optimizing Cluster 16: 60 prospects
+2025-11-20 23:47:58,986 - INFO - 
+Optimizing Cluster 14: 60 prospects
+2025-11-20 23:47:59,028 - INFO - 
+Optimizing Cluster 20: 60 prospects
+2025-11-20 23:47:59,072 - INFO - 
+Optimizing Cluster 25: 60 prospects
+2025-11-20 23:47:59,118 - INFO - 
+Optimizing Cluster 28: 43 prospects
+2025-11-20 23:47:59,151 - INFO - 
+Optimizing Cluster 24: 60 prospects
+2025-11-20 23:47:59,197 - INFO - 
+Optimizing Cluster 30: 42 prospects
+2025-11-20 23:47:59,225 - INFO - 
+Optimizing Cluster 27: 60 prospects
+2025-11-20 23:47:59,275 - INFO - 
+Optimizing Cluster 26: 52 prospects
+2025-11-20 23:47:59,319 - INFO - 
+Optimizing Cluster 29: 60 prospects
+2025-11-20 23:47:59,366 - INFO - 
+Optimizing Cluster 23: 60 prospects
+2025-11-20 23:47:59,402 - INFO - 
+Optimizing Cluster 35: 60 prospects
+2025-11-20 23:47:59,440 - INFO - 
+Optimizing Cluster 34: 60 prospects
+2025-11-20 23:47:59,490 - INFO - 
+Optimizing Cluster 36: 60 prospects
+2025-11-20 23:47:59,540 - INFO - 
+Optimizing Cluster 32: 55 prospects
+2025-11-20 23:47:59,581 - INFO - 
+Optimizing Cluster 33: 56 prospects
+2025-11-20 23:47:59,626 - INFO - 
+Optimizing Cluster 37: 60 prospects
+2025-11-20 23:47:59,667 - INFO - 
+Optimizing Cluster 42: 60 prospects
+2025-11-20 23:47:59,710 - INFO - 
+Optimizing Cluster 41: 60 prospects
+2025-11-20 23:47:59,759 - INFO - 
+Optimizing Cluster 40: 60 prospects
+2025-11-20 23:47:59,801 - INFO - 
+Optimizing Cluster 44: 42 prospects
+2025-11-20 23:47:59,827 - INFO - 
+Optimizing Cluster 43: 60 prospects
+2025-11-20 23:47:59,866 - INFO - 
+Optimizing Cluster 39: 45 prospects
+2025-11-20 23:47:59,897 - INFO - 
+Optimizing Cluster 48: 51 prospects
+2025-11-20 23:47:59,935 - INFO - 
+Optimizing Cluster 50: 60 prospects
+2025-11-20 23:47:59,981 - INFO - 
+Optimizing Cluster 49: 60 prospects
+2025-11-20 23:48:00,028 - INFO - 
+Optimizing Cluster 52: 49 prospects
+2025-11-20 23:48:00,061 - INFO - 
+Optimizing Cluster 51: 44 prospects
+2025-11-20 23:48:00,115 - INFO - 
+Optimizing Cluster 47: 56 prospects
+2025-11-20 23:48:00,168 - INFO - 
+Optimizing Cluster 57: 60 prospects
+2025-11-20 23:48:00,212 - INFO - 
+Optimizing Cluster 56: 60 prospects
+2025-11-20 23:48:00,258 - INFO - 
+Optimizing Cluster 58: 52 prospects
+2025-11-20 23:48:00,296 - INFO - 
+Optimizing Cluster 54: 60 prospects
+2025-11-20 23:48:00,340 - INFO - 
+Optimizing Cluster 55: 60 prospects
+2025-11-20 23:48:00,384 - INFO - 
+Optimizing Cluster 65: 60 prospects
+2025-11-20 23:48:00,445 - INFO - 
+Optimizing Cluster 62: 60 prospects
+2025-11-20 23:48:00,496 - INFO - 
+Optimizing Cluster 63: 60 prospects
+2025-11-20 23:48:00,538 - INFO - 
+Optimizing Cluster 66: 60 prospects
+2025-11-20 23:48:00,579 - INFO - 
+Optimizing Cluster 64: 48 prospects
+2025-11-20 23:48:00,617 - INFO - 
+Optimizing Cluster 70: 60 prospects
+2025-11-20 23:48:00,676 - INFO - 
+Optimizing Cluster 71: 60 prospects
+2025-11-20 23:48:00,726 - INFO - 
+Optimizing Cluster 69: 51 prospects
+2025-11-20 23:48:00,771 - INFO - 
+Optimizing Cluster 68: 46 prospects
+2025-11-20 23:48:00,810 - INFO - 
+Optimizing Cluster 72: 49 prospects
+2025-11-20 23:48:00,872 - INFO - 
+Optimizing Cluster 77: 60 prospects
+2025-11-20 23:48:00,924 - INFO - 
+Optimizing Cluster 75: 60 prospects
+2025-11-20 23:48:00,966 - INFO - 
+Optimizing Cluster 78: 60 prospects
+2025-11-20 23:48:01,013 - INFO - 
+Optimizing Cluster 76: 60 prospects
+2025-11-20 23:48:01,057 - INFO - 
+Optimizing Cluster 126: 52 prospects
+2025-11-20 23:48:01,094 - INFO - 
+Optimizing Cluster 85: 54 prospects
+2025-11-20 23:48:01,133 - INFO - 
+Optimizing Cluster 82: 60 prospects
+2025-11-20 23:48:01,187 - INFO - 
+Optimizing Cluster 83: 60 prospects
+2025-11-20 23:48:01,234 - INFO - 
+Optimizing Cluster 84: 60 prospects
+2025-11-20 23:48:01,275 - INFO - 
+Optimizing Cluster 91: 58 prospects
+2025-11-20 23:48:01,320 - INFO - 
+Optimizing Cluster 89: 52 prospects
+2025-11-20 23:48:01,361 - INFO - 
+Optimizing Cluster 92: 50 prospects
+2025-11-20 23:48:01,401 - INFO - 
+Optimizing Cluster 90: 60 prospects
+2025-11-20 23:48:01,451 - INFO - 
+Optimizing Cluster 133: 35 prospects
+2025-11-20 23:48:01,483 - INFO - 
+Optimizing Cluster 95: 59 prospects
+2025-11-20 23:48:01,526 - INFO - 
+Optimizing Cluster 97: 60 prospects
+2025-11-20 23:48:01,573 - INFO - 
+Optimizing Cluster 99: 50 prospects
+2025-11-20 23:48:01,615 - INFO - 
+Optimizing Cluster 98: 52 prospects
+2025-11-20 23:48:01,651 - INFO - 
+Optimizing Cluster 129: 49 prospects
+2025-11-20 23:48:01,688 - INFO - 
+Optimizing Cluster 105: 60 prospects
+2025-11-20 23:48:01,735 - INFO - 
+Optimizing Cluster 106: 60 prospects
+2025-11-20 23:48:01,778 - INFO - 
+Optimizing Cluster 132: 41 prospects
+2025-11-20 23:48:01,807 - INFO - 
+Optimizing Cluster 104: 59 prospects
+2025-11-20 23:48:01,852 - INFO - 
+Optimizing Cluster 112: 59 prospects
+2025-11-20 23:48:01,898 - INFO - 
+Optimizing Cluster 111: 59 prospects
+2025-11-20 23:48:01,944 - INFO - 
+Optimizing Cluster 110: 60 prospects
+2025-11-20 23:48:01,988 - INFO - 
+Optimizing Cluster 109: 57 prospects
+2025-11-20 23:48:02,026 - INFO - 
+Optimizing Cluster 116: 60 prospects
+2025-11-20 23:48:02,128 - INFO - 
+Optimizing Cluster 117: 55 prospects
+2025-11-20 23:48:02,166 - INFO - 
+Optimizing Cluster 114: 60 prospects
+2025-11-20 23:48:02,210 - INFO - 
+Optimizing Cluster 115: 60 prospects
+2025-11-20 23:48:02,253 - INFO - 
+Optimizing Cluster 122: 60 prospects
+2025-11-20 23:48:02,294 - INFO - 
+Optimizing Cluster 121: 60 prospects
+2025-11-20 23:48:02,336 - INFO - 
+Optimizing Cluster 119: 60 prospects
+2025-11-20 23:48:02,377 - INFO - 
+Optimizing Cluster 120: 49 prospects
+2025-11-20 23:48:02,415 - INFO - 
+Optimizing Cluster 123: 50 prospects
+2025-11-20 23:48:02,450 - INFO - 
+Optimizing Cluster 127: 52 prospects
+2025-11-20 23:48:02,491 - INFO - 
+Optimizing Cluster 128: 46 prospects
+2025-11-20 23:48:02,526 - INFO - 
+Optimizing Cluster 130: 35 prospects
+2025-11-20 23:48:02,554 - INFO - 
+Optimizing Cluster 135: 56 prospects
+2025-11-20 23:48:02,595 - INFO - 
+Optimizing Cluster 137: 43 prospects
+2025-11-20 23:48:02,631 - INFO - 
+Optimizing Cluster 136: 41 prospects
+2025-11-20 23:48:02,659 - INFO - 
+Optimizing Cluster 134: 44 prospects
+2025-11-20 23:48:03,214 - INFO - ============================================================
+2025-11-20 23:48:03,214 - INFO - TEST MODE - NO DATABASE CHANGES
+2025-11-20 23:48:03,214 - INFO - ============================================================
+2025-11-20 23:48:03,214 - INFO - WOULD INSERT: 5790 records
+2025-11-20 23:48:03,215 - INFO - 
+Sample Records (first 5):
+2025-11-20 23:48:03,215 - INFO -   1. CustNo=7K004040, Agent=MVP-NAO1, Date=2025-12-01, StopNo=1
+2025-11-20 23:48:03,215 - INFO -   2. CustNo=7K004047, Agent=MVP-NAO1, Date=2025-12-01, StopNo=2
+2025-11-20 23:48:03,215 - INFO -   3. CustNo=7K004043, Agent=MVP-NAO1, Date=2025-12-01, StopNo=3
+2025-11-20 23:48:03,216 - INFO -   4. CustNo=7K004051, Agent=MVP-NAO1, Date=2025-12-01, StopNo=4
+2025-11-20 23:48:03,216 - INFO -   5. CustNo=7K004088, Agent=MVP-NAO1, Date=2025-12-01, StopNo=5
+2025-11-20 23:48:03,216 - INFO - ============================================================
+2025-11-20 23:48:03,216 - INFO - 
+================================================================================
+2025-11-20 23:48:03,217 - INFO - TEST MODE COMPLETED - NO CHANGES MADE TO DATABASE
+2025-11-20 23:48:03,263 - INFO - CSV EXPORTED: C:\Simplr projects\Route-optimization\full_pipeline\output\ors_prospect_routes_11619_2025-12-01_20251120_234803.csv
+2025-11-20 23:48:03,263 - INFO - Total records in CSV: 5790
+2025-11-20 23:48:03,263 - INFO - Total records processed: 5790
+2025-11-20 23:48:03,265 - INFO - Total clusters created: 104
+2025-11-20 23:48:03,265 - INFO - Duration: 631.04 seconds (10.52 minutes)
+2025-11-20 23:48:03,265 - INFO - ================================================================================

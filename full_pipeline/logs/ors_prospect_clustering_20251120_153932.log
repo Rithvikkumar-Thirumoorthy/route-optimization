@@ -1,0 +1,308 @@
+2025-11-20 15:39:32,787 - INFO - ================================================================================
+2025-11-20 15:39:32,789 - INFO - TEST MODE - ORS PROSPECT CLUSTERING (DRY RUN)
+2025-11-20 15:39:32,789 - INFO - NO DATABASE CHANGES WILL BE MADE
+2025-11-20 15:39:32,789 - INFO - ================================================================================
+2025-11-20 15:39:32,789 - INFO - Distributor ID: 11619
+2025-11-20 15:39:32,790 - INFO - Start Date: 2024-12-10
+2025-11-20 15:39:32,790 - INFO - Max Stores per Cluster: 60
+2025-11-20 15:39:32,808 - INFO - Min Stores Threshold: 20
+2025-11-20 15:39:32,808 - INFO - ================================================================================
+2025-11-20 15:39:33,450 - INFO - 
+================================================================================
+2025-11-20 15:39:33,450 - INFO - STEP 1: Getting sales agents with access = 15
+2025-11-20 15:39:33,450 - INFO - ================================================================================
+2025-11-20 15:39:34,988 - INFO - Found 10 sales agents with access = 15
+2025-11-20 15:39:34,988 - INFO - 
+================================================================================
+2025-11-20 15:39:34,988 - INFO - STEP 2: Getting distributor barangays
+2025-11-20 15:39:34,989 - INFO - ================================================================================
+2025-11-20 15:39:35,253 - INFO - Distributor 11619: MINDANAO MVP
+2025-11-20 15:39:35,690 - INFO - Found 628 barangays for distributor 11619 (MINDANAO MVP)
+2025-11-20 15:39:35,690 - INFO - 
+================================================================================
+2025-11-20 15:39:35,690 - INFO - STEP 3: Processing barangays and clustering prospects
+2025-11-20 15:39:35,691 - INFO - ================================================================================
+2025-11-20 15:39:35,691 - INFO -   Fetching excluded IDs from MonthlyRoutePlan_temp...
+2025-11-20 15:39:36,287 - INFO -   Excluded 12176 IDs from MonthlyRoutePlan_temp
+2025-11-20 15:39:36,288 - INFO -   Fetching excluded IDs from custvisit...
+2025-11-20 15:39:39,772 - INFO -   Excluded 95144 IDs from custvisit
+2025-11-20 15:39:39,773 - INFO -   Total excluded IDs: 100867
+2025-11-20 15:39:39,775 - INFO - 
+Processing Barangay: Abnate (112406001)
+2025-11-20 15:39:40,171 - INFO -     Barangay 112406001: 5 prospects
+2025-11-20 15:39:40,172 - INFO -     Single cluster: 5 prospects
+2025-11-20 15:39:40,177 - INFO - 
+Processing Barangay: Acacia (112402001)
+2025-11-20 15:39:40,591 - INFO -     Barangay 112402001: 4 prospects
+2025-11-20 15:39:40,592 - INFO -     Single cluster: 4 prospects
+2025-11-20 15:39:40,597 - INFO - 
+Processing Barangay: Adecor (112317001)
+2025-11-20 15:39:40,992 - INFO -     Barangay 112317001: 25 prospects
+2025-11-20 15:39:40,992 - INFO -     Single cluster: 25 prospects
+2025-11-20 15:39:40,996 - INFO - 
+Processing Barangay: Agdao (112402002)
+2025-11-20 15:39:41,413 - INFO -     Barangay 112402002: 51 prospects
+2025-11-20 15:39:41,417 - INFO -     Single cluster: 51 prospects
+2025-11-20 15:39:41,425 - INFO - 
+Processing Barangay: Aguinaldo (118202001)
+2025-11-20 15:39:42,224 - INFO -     Barangay 118202001: 16 prospects
+2025-11-20 15:39:42,227 - INFO -     Single cluster: 16 prospects
+2025-11-20 15:39:42,230 - INFO - 
+Processing Barangay: Alegre (112401001)
+2025-11-20 15:39:43,229 - INFO -     Barangay 112401001: 1 prospects
+2025-11-20 15:39:43,230 - INFO -     Single cluster: 1 prospects
+2025-11-20 15:39:43,233 - INFO - 
+Processing Barangay: Alejal (112303001)
+2025-11-20 15:39:43,700 - INFO -     Barangay 112303001: 65 prospects
+2025-11-20 15:39:43,705 - INFO -     Clustering 65 prospects using Haversine distance...
+2025-11-20 15:39:45,901 - INFO -     DBSCAN converged with eps=0.6859999999999998km: 3 clusters
+2025-11-20 15:39:45,903 - INFO -     Created 2 clusters
+2025-11-20 15:39:45,907 - INFO -     Cluster sizes: min=10, max=53, mean=31.5
+2025-11-20 15:39:45,913 - INFO - 
+Processing Barangay: Alejandra Navarro (Lasang) (112402056)
+2025-11-20 15:39:46,303 - INFO -     Barangay 112402056: 33 prospects
+2025-11-20 15:39:46,305 - INFO -     Single cluster: 33 prospects
+2025-11-20 15:39:46,308 - INFO - 
+Processing Barangay: Alfonso Angliongto Sr. (112402197)
+2025-11-20 15:39:47,575 - INFO -     Barangay 112402197: 2 prospects
+2025-11-20 15:39:47,576 - INFO -     Single cluster: 2 prospects
+2025-11-20 15:39:47,580 - INFO - 
+Processing Barangay: Aliwagwag (112505003)
+2025-11-20 15:39:48,661 - INFO -     Barangay 112505003: 4 prospects
+2025-11-20 15:39:48,662 - INFO -     Single cluster: 4 prospects
+2025-11-20 15:39:48,666 - INFO - 
+Processing Barangay: Alvar (112504001)
+2025-11-20 15:39:49,027 - INFO -     Barangay 112504001: 2 prospects
+2025-11-20 15:39:49,028 - INFO -     Single cluster: 2 prospects
+2025-11-20 15:39:49,032 - INFO - 
+Processing Barangay: Amor Cruz (118202016)
+2025-11-20 15:39:49,440 - INFO -     Barangay 118202016: 5 prospects
+2025-11-20 15:39:49,442 - INFO -     Single cluster: 5 prospects
+2025-11-20 15:39:49,452 - INFO - 
+Processing Barangay: Ampawid (118202017)
+2025-11-20 15:39:49,868 - INFO -     Barangay 118202017: 19 prospects
+2025-11-20 15:39:49,869 - INFO -     Single cluster: 19 prospects
+2025-11-20 15:39:49,872 - INFO - 
+Processing Barangay: Andap (118202018)
+2025-11-20 15:39:50,356 - INFO -     Barangay 118202018: 2 prospects
+2025-11-20 15:39:50,375 - INFO -     Single cluster: 2 prospects
+2025-11-20 15:39:50,384 - INFO - 
+Processing Barangay: Angalan (112402174)
+2025-11-20 15:39:50,815 - INFO -     Barangay 112402174: 5 prospects
+2025-11-20 15:39:50,815 - INFO -     Single cluster: 5 prospects
+2025-11-20 15:39:50,822 - INFO - 
+Processing Barangay: Anibongan (112303002)
+2025-11-20 15:39:52,683 - INFO -     Barangay 112303002: 20 prospects
+2025-11-20 15:39:52,687 - INFO -     Single cluster: 20 prospects
+2025-11-20 15:39:52,692 - INFO - 
+Processing Barangay: Anibongan (118204001)
+2025-11-20 15:39:53,304 - INFO -     Barangay 118204001: 9 prospects
+2025-11-20 15:39:53,305 - INFO -     Single cluster: 9 prospects
+2025-11-20 15:39:53,310 - INFO - 
+Processing Barangay: Anitap (112506001)
+2025-11-20 15:39:53,735 - INFO -     Barangay 112506001: 32 prospects
+2025-11-20 15:39:53,736 - INFO -     Single cluster: 32 prospects
+2025-11-20 15:39:53,741 - INFO - 
+Processing Barangay: Anonang (112317002)
+2025-11-20 15:39:54,223 - INFO -     Barangay 112317002: 24 prospects
+2025-11-20 15:39:54,225 - INFO -     Single cluster: 24 prospects
+2025-11-20 15:39:54,234 - INFO - 
+Processing Barangay: Anonang (112401003)
+2025-11-20 15:39:54,705 - INFO -     Barangay 112401003: 1 prospects
+2025-11-20 15:39:54,707 - INFO -     Single cluster: 1 prospects
+2025-11-20 15:39:54,713 - INFO - 
+Processing Barangay: Antiquera (118209002)
+2025-11-20 15:39:55,111 - INFO -     Barangay 118209002: 5 prospects
+2025-11-20 15:39:55,112 - INFO -     Single cluster: 5 prospects
+2025-11-20 15:39:55,115 - INFO - 
+Processing Barangay: Aplaya (112403001)
+2025-11-20 15:39:55,521 - INFO -     Barangay 112403001: 96 prospects
+2025-11-20 15:39:55,533 - INFO -     Clustering 96 prospects using Haversine distance...
+2025-11-20 15:39:55,580 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 15:39:55,660 - INFO -       Splitting cluster 0 (96 stores) using constrained K-means
+2025-11-20 15:39:55,842 - INFO -       Created 2 subclusters: sizes 36-60
+2025-11-20 15:39:55,842 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 15:39:55,843 - INFO -     Created 2 clusters
+2025-11-20 15:39:55,846 - INFO -     Cluster sizes: min=36, max=60, mean=48.0
+2025-11-20 15:39:55,852 - INFO - 
+Processing Barangay: Apokon (112319001)
+2025-11-20 15:39:57,536 - INFO -     Barangay 112319001: 101 prospects
+2025-11-20 15:39:57,546 - INFO -     Clustering 101 prospects using Haversine distance...
+2025-11-20 15:39:57,622 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 15:39:57,623 - INFO -       Splitting cluster 0 (100 stores) using constrained K-means
+2025-11-20 15:39:57,876 - INFO -       Created 2 subclusters: sizes 50-50
+2025-11-20 15:39:57,876 - INFO -       Final max cluster size: 50 (limit: 60)
+2025-11-20 15:39:57,877 - INFO -     Created 2 clusters
+2025-11-20 15:39:57,879 - INFO -     Cluster sizes: min=50, max=50, mean=50.0
+2025-11-20 15:39:57,883 - INFO - 
+Processing Barangay: Asbang (112410001)
+2025-11-20 15:39:58,320 - INFO -     Barangay 112410001: 5 prospects
+2025-11-20 15:39:58,339 - INFO -     Single cluster: 5 prospects
+2025-11-20 15:39:58,362 - INFO - 
+Processing Barangay: Astorga (112412001)
+2025-11-20 15:39:58,776 - INFO -     Barangay 112412001: 1 prospects
+2025-11-20 15:39:58,830 - INFO -     Single cluster: 1 prospects
+2025-11-20 15:39:58,837 - INFO - 
+Processing Barangay: Asuncion (Cuatro-Cuatro) (112303003)
+2025-11-20 15:39:59,255 - INFO -     Barangay 112303003: 70 prospects
+2025-11-20 15:39:59,262 - INFO -     Clustering 70 prospects using Haversine distance...
+2025-11-20 15:39:59,292 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 15:39:59,293 - INFO -       Splitting cluster 0 (70 stores) using constrained K-means
+2025-11-20 15:39:59,475 - INFO -       Created 2 subclusters: sizes 16-54
+2025-11-20 15:39:59,475 - INFO -       Final max cluster size: 54 (limit: 60)
+2025-11-20 15:39:59,476 - INFO -     Created 2 clusters
+2025-11-20 15:39:59,479 - INFO -     Cluster sizes: min=16, max=54, mean=35.0
+2025-11-20 15:39:59,483 - INFO - 
+Processing Barangay: Aundanao (112317004)
+2025-11-20 15:39:59,921 - INFO -     Barangay 112317004: 1 prospects
+2025-11-20 15:39:59,922 - INFO -     Single cluster: 1 prospects
+2025-11-20 15:39:59,925 - INFO - 
+Processing Barangay: Aurora (118201016)
+2025-11-20 15:40:00,361 - INFO -     Barangay 118201016: 1 prospects
+2025-11-20 15:40:00,361 - INFO -     Single cluster: 1 prospects
+2025-11-20 15:40:00,364 - INFO - 
+Processing Barangay: Bacungan (112407001)
+2025-11-20 15:40:01,865 - INFO -     Barangay 112407001: 14 prospects
+2025-11-20 15:40:01,869 - INFO -     Single cluster: 14 prospects
+2025-11-20 15:40:01,873 - INFO - 
+Processing Barangay: Badas (112509001)
+2025-11-20 15:40:02,605 - INFO -     Barangay 112509001: 5 prospects
+2025-11-20 15:40:02,607 - INFO -     Single cluster: 5 prospects
+2025-11-20 15:40:02,611 - INFO - 
+Processing Barangay: Baganihan (112402175)
+2025-11-20 15:40:03,056 - INFO -     Barangay 112402175: 26 prospects
+2025-11-20 15:40:03,076 - INFO -     Single cluster: 26 prospects
+2025-11-20 15:40:03,124 - INFO - 
+Processing Barangay: Bago Aplaya (112402176)
+2025-11-20 15:40:03,610 - INFO -     Barangay 112402176: 75 prospects
+2025-11-20 15:40:03,623 - INFO -     Clustering 75 prospects using Haversine distance...
+2025-11-20 15:40:03,671 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 15:40:03,672 - INFO -       Splitting cluster 0 (73 stores) using constrained K-means
+2025-11-20 15:40:04,272 - INFO -       Created 2 subclusters: sizes 18-55
+2025-11-20 15:40:04,272 - INFO -       Final max cluster size: 55 (limit: 60)
+2025-11-20 15:40:04,273 - INFO -     Created 2 clusters
+2025-11-20 15:40:04,286 - INFO -     Cluster sizes: min=18, max=55, mean=36.5
+2025-11-20 15:40:04,309 - INFO - 
+Processing Barangay: Bago Gallera (112402005)
+2025-11-20 15:40:04,765 - INFO -     Barangay 112402005: 258 prospects
+2025-11-20 15:40:04,792 - INFO -     Clustering 258 prospects using Haversine distance...
+2025-11-20 15:40:05,205 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 15:40:05,206 - INFO -       Splitting cluster 1 (234 stores) using constrained K-means
+2025-11-20 15:40:06,388 - INFO -       Created 4 subclusters: sizes 54-60
+2025-11-20 15:40:06,523 - INFO -       Final max cluster size: 60 (limit: 60)
+2025-11-20 15:40:06,555 - INFO -     Created 5 clusters
+2025-11-20 15:40:06,562 - INFO -     Cluster sizes: min=23, max=60, mean=51.4
+2025-11-20 15:40:06,608 - INFO - 
+Processing Barangay: Bago Oshiro (112402006)
+2025-11-20 15:40:07,189 - INFO -     Barangay 112402006: 6 prospects
+2025-11-20 15:40:07,190 - INFO -     Single cluster: 6 prospects
+2025-11-20 15:40:07,196 - INFO - 
+Processing Barangay: Bagong Silang (112406003)
+2025-11-20 15:40:07,834 - INFO -     Barangay 112406003: 1 prospects
+2025-11-20 15:40:07,838 - INFO -     Single cluster: 1 prospects
+2025-11-20 15:40:07,842 - INFO - 
+Processing Barangay: Bagong Silang (118202020)
+2025-11-20 15:40:08,328 - INFO -     Barangay 118202020: 1 prospects
+2025-11-20 15:40:08,332 - INFO -     Single cluster: 1 prospects
+2025-11-20 15:40:08,337 - INFO - 
+Processing Barangay: Bagongon (118201001)
+2025-11-20 15:40:09,038 - INFO -     Barangay 118201001: 9 prospects
+2025-11-20 15:40:09,071 - INFO -     Single cluster: 9 prospects
+2025-11-20 15:40:09,094 - INFO - 
+Processing Barangay: Baguio (Pob.) (112402007)
+2025-11-20 15:40:09,577 - INFO -     Barangay 112402007: 51 prospects
+2025-11-20 15:40:09,581 - INFO -     Single cluster: 51 prospects
+2025-11-20 15:40:09,589 - INFO - 
+Processing Barangay: Bagumbayan (112507001)
+2025-11-20 15:40:10,107 - INFO -     Barangay 112507001: 29 prospects
+2025-11-20 15:40:10,176 - INFO -     Single cluster: 29 prospects
+2025-11-20 15:40:10,190 - INFO - 
+Processing Barangay: Bagumbayan (112410003)
+2025-11-20 15:40:11,175 - INFO -     Barangay 112410003: 8 prospects
+2025-11-20 15:40:11,183 - INFO -     Single cluster: 8 prospects
+2025-11-20 15:40:11,202 - INFO - 
+Processing Barangay: Bagumbayan (112408019)
+2025-11-20 15:40:12,444 - INFO -     Barangay 112408019: 31 prospects
+2025-11-20 15:40:12,541 - INFO -     Single cluster: 31 prospects
+2025-11-20 15:40:12,553 - INFO - 
+Processing Barangay: Balabag (112403002)
+2025-11-20 15:40:13,058 - INFO -     Barangay 112403002: 19 prospects
+2025-11-20 15:40:13,099 - INFO -     Single cluster: 19 prospects
+2025-11-20 15:40:13,142 - INFO - 
+Processing Barangay: Balagunan (112318001)
+2025-11-20 15:40:13,651 - INFO -     Barangay 112318001: 21 prospects
+2025-11-20 15:40:13,652 - INFO -     Single cluster: 21 prospects
+2025-11-20 15:40:13,656 - INFO - 
+Processing Barangay: Balengaeng (112402009)
+2025-11-20 15:40:14,090 - INFO -     Barangay 112402009: 3 prospects
+2025-11-20 15:40:14,096 - INFO -     Single cluster: 3 prospects
+2025-11-20 15:40:14,103 - INFO - 
+Processing Barangay: Balet (112317005)
+2025-11-20 15:40:14,572 - INFO -     Barangay 112317005: 52 prospects
+2025-11-20 15:40:14,574 - INFO -     Single cluster: 52 prospects
+2025-11-20 15:40:14,591 - INFO - 
+Processing Barangay: Banagbanag (118208001)
+2025-11-20 15:40:16,492 - INFO -     Barangay 118208001: 10 prospects
+2025-11-20 15:40:16,494 - INFO -     Single cluster: 10 prospects
+2025-11-20 15:40:16,499 - INFO - 
+Processing Barangay: Banao (112501002)
+2025-11-20 15:40:17,230 - INFO -     Barangay 112501002: 53 prospects
+2025-11-20 15:40:17,232 - INFO -     Single cluster: 53 prospects
+2025-11-20 15:40:17,234 - INFO - 
+Processing Barangay: Banbanon (118202002)
+2025-11-20 15:40:17,597 - INFO -     Barangay 118202002: 7 prospects
+2025-11-20 15:40:17,598 - INFO -     Single cluster: 7 prospects
+2025-11-20 15:40:17,601 - INFO - 
+Processing Barangay: Bandera (112317006)
+2025-11-20 15:40:17,982 - INFO -     Barangay 112317006: 15 prospects
+2025-11-20 15:40:17,983 - INFO -     Single cluster: 15 prospects
+2025-11-20 15:40:17,986 - INFO - 
+Processing Barangay: Banglasan (118208002)
+2025-11-20 15:40:18,353 - INFO -     Barangay 118208002: 1 prospects
+2025-11-20 15:40:18,354 - INFO -     Single cluster: 1 prospects
+2025-11-20 15:40:18,357 - INFO - 
+Processing Barangay: Bankerohan Norte (118208003)
+2025-11-20 15:40:18,719 - INFO -     Barangay 118208003: 29 prospects
+2025-11-20 15:40:18,720 - INFO -     Single cluster: 29 prospects
+2025-11-20 15:40:18,723 - INFO - 
+Processing Barangay: Bankerohan Sur (118208004)
+2025-11-20 15:40:19,184 - INFO -     Barangay 118208004: 40 prospects
+2025-11-20 15:40:19,186 - INFO -     Single cluster: 40 prospects
+2025-11-20 15:40:19,190 - INFO - 
+Processing Barangay: Banlag (118207003)
+2025-11-20 15:40:19,622 - INFO -     Barangay 118207003: 30 prospects
+2025-11-20 15:40:19,623 - INFO -     Single cluster: 30 prospects
+2025-11-20 15:40:19,630 - INFO - 
+Processing Barangay: Baon (112510001)
+2025-11-20 15:40:21,347 - INFO -     Barangay 112510001: 16 prospects
+2025-11-20 15:40:21,348 - INFO -     Single cluster: 16 prospects
+2025-11-20 15:40:21,351 - INFO - 
+Processing Barangay: Barangay 10-A (Pob.) (112402143)
+2025-11-20 15:40:22,216 - INFO -     Barangay 112402143: 10 prospects
+2025-11-20 15:40:22,216 - INFO -     Single cluster: 10 prospects
+2025-11-20 15:40:22,219 - INFO - 
+Processing Barangay: Barangay 11-B (Pob.) (112402144)
+2025-11-20 15:40:22,586 - INFO -     Barangay 112402144: 8 prospects
+2025-11-20 15:40:22,587 - INFO -     Single cluster: 8 prospects
+2025-11-20 15:40:22,589 - INFO - 
+Processing Barangay: Barangay 12-B (Pob.) (112402145)
+2025-11-20 15:40:23,037 - INFO -     Barangay 112402145: 28 prospects
+2025-11-20 15:40:23,038 - INFO -     Single cluster: 28 prospects
+2025-11-20 15:40:23,040 - INFO - 
+Processing Barangay: Barangay 13-B (Pob.) (112402146)
+2025-11-20 15:40:23,504 - INFO -     Barangay 112402146: 1 prospects
+2025-11-20 15:40:23,505 - INFO -     Single cluster: 1 prospects
+2025-11-20 15:40:23,507 - INFO - 
+Processing Barangay: Barangay 14-B (Pob.) (112402147)
+2025-11-20 15:40:23,919 - INFO -     Barangay 112402147: 2 prospects
+2025-11-20 15:40:23,919 - INFO -     Single cluster: 2 prospects
+2025-11-20 15:40:23,921 - INFO - 
+Processing Barangay: Barangay 17-B (Pob.) (112402150)
+2025-11-20 15:40:24,345 - INFO -     Barangay 112402150: 3 prospects
+2025-11-20 15:40:24,346 - INFO -     Single cluster: 3 prospects
+2025-11-20 15:40:24,348 - INFO - 
+Processing Barangay: Barangay 19-B (Pob.) (112402152)
+2025-11-20 15:40:24,726 - INFO -     Barangay 112402152: 328 prospects
+2025-11-20 15:40:24,750 - INFO -     Clustering 328 prospects using Haversine distance...
+2025-11-20 15:40:25,012 - WARNING -     DBSCAN failed to converge, splitting large clusters manually
+2025-11-20 15:40:25,013 - INFO -       Splitting cluster 0 (282 stores) using constrained K-means
